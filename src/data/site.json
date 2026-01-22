@@ -1,43 +1,58 @@
 {
-  "businessName": "Summit Roofing & Exteriors",
+  "businessName": "Breezy HVAC and Construction",
   "themeColor": "#2563eb",
+  "palette": {
+    "light": {
+      "primary": "#2563eb",
+      "secondary": "#60a5fa",
+      "accent": "#bfdbfe",
+      "background": "#f9fafb",
+      "foreground": "#1e3a8a"
+    },
+    "dark": {
+      "primary": "#60a5fa",
+      "secondary": "#3b82f6",
+      "accent": "#1e3a8a",
+      "background": "#0f172a",
+      "foreground": "#d1d5db"
+    }
+  },
+  "contact": {
+    "email": "contact@breezyhvacandconstruction.com",
+    "phone": "555-0123",
+    "address": "Address not available"
+  },
   "hero": {
-    "headline": "Protecting Your Home With Precision Craftsmanship",
-    "subhead": "The most trusted local roofing experts for over 20 years. Quality materials, expert installation, and a lifetime warranty on all work.",
-    "imageUrl": "https://images.unsplash.com/photo-1632733711679-5292d6863f1c?auto=format&fit=crop&w=1200&q=80",
+    "headline": "Your Comfort, Our Priority: Expert HVAC & Construction Solutions",
+    "subhead": "Reliable heating, cooling, and construction services tailored to your needs. Get a free quote today!",
+    "imageUrl": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1200&q=80",
     "heroStyle": "full"
   },
   "features": [
     {
-      "title": "Free Inspection",
-      "description": "We offer detailed roof inspections at zero cost to you. Know the state of your roof today.",
-      "icon": "Search"
+      "title": "HVAC Installation & Repair",
+      "description": "Expert installation and repair services for all your heating, ventilation, and air conditioning needs. We ensure optimal performance and energy efficiency."
     },
     {
-      "title": "24/7 Repairs",
-      "description": "Emergency services available for storm damage and leaks. We're here when you need us.",
-      "icon": "Clock"
+      "title": "Construction & Remodeling",
+      "description": "From new constructions to home renovations, we provide comprehensive construction services with a focus on quality craftsmanship and customer satisfaction."
     },
     {
-      "title": "Lifetime Warranty",
-      "description": "We stand behind our work with a comprehensive lifetime warranty on all materials and labor.",
-      "icon": "Shield"
+      "title": "Preventative Maintenance",
+      "description": "Extend the lifespan of your HVAC systems with our preventative maintenance programs. We identify and address potential issues before they become major problems."
     }
   ],
   "reviews": [
     {
-      "name": "Michael Stevens",
-      "text": "Best roofing experience I've had. They were professional, fast, and left my property cleaner than they found it.",
+      "name": "John S.",
+      "text": "Breezy HVAC and Construction did an amazing job installing our new AC unit. The team was professional, efficient, and very knowledgeable.",
       "rating": 5
     },
     {
-      "name": "Sarah Jenkins",
-      "text": "Fair prices and excellent communication. They explained every step of the process. Highly recommend!",
+      "name": "Sarah M.",
+      "text": "We hired Breezy to remodel our kitchen and we couldn't be happier with the results. Their attention to detail and commitment to quality is unmatched.",
       "rating": 5
     }
   ],
-  "contact": {
-    "phone": "(555) 123-4567",
-    "email": "hello@summitroofing.com"
-  }
+  "gallery": []
 }
