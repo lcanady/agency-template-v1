@@ -1,59 +1,65 @@
 {
-  "businessName": "Summit Roofing & Exteriors",
-  "themeColor": "#2563eb",
+  "businessName": "EMDF Roofing, LLC",
+  "brandIcon": "🏠",
+  "themeColor": "#2d3748",
   "palette": {
     "light": {
-      "primary": "#2563eb",
-      "secondary": "#3b82f6",
-      "accent": "#60a5fa",
-      "background": "#ffffff",
-      "foreground": "#0f172a"
+      "primary": "#2d3748",
+      "secondary": "#4a5568",
+      "accent": "#718096",
+      "background": "#f7fafc",
+      "foreground": "#1a202c"
     },
     "dark": {
-      "primary": "#3b82f6",
-      "secondary": "#2563eb",
-      "accent": "#1e40af",
-      "background": "#0f172a",
-      "foreground": "#f8fafc"
+      "primary": "#cbd5e0",
+      "secondary": "#a0aec0",
+      "accent": "#718096",
+      "background": "#1a202c",
+      "foreground": "#f7fafc"
     }
   },
+  "contact": {
+    "email": "contact@emdfroofingllc.com",
+    "phone": "555-0123",
+    "address": "Address not available"
+  },
   "hero": {
-    "headline": "Protecting Your Home With Precision Craftsmanship",
-    "subhead": "The most trusted local roofing experts for over 20 years. Quality materials, expert installation, and a lifetime warranty on all work.",
-    "imageUrl": "https://images.unsplash.com/photo-1632733711679-5292d6863f1c?auto=format&fit=crop&w=1200&q=80",
+    "headline": "Protecting Your Home with Quality Roofing Solutions",
+    "subhead": "EMDF Roofing: Expert Installation, Repair, and Maintenance Services.",
+    "imageUrl": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
     "heroStyle": "full"
   },
   "features": [
     {
-      "title": "Free Inspection",
-      "description": "We offer detailed roof inspections at zero cost to you. Know the state of your roof today.",
-      "icon": "Search"
+      "title": "Expert Roof Installation",
+      "description": "Professional installation services using premium materials for long-lasting protection.",
+      "imageUrl": "https://images.unsplash.com/photo-1521791136064-7986c2923216?auto=format&fit=crop&w=400&q=80"
     },
     {
-      "title": "24/7 Repairs",
-      "description": "Emergency services available for storm damage and leaks. We're here when you need us.",
-      "icon": "Clock"
+      "title": "Reliable Roof Repairs",
+      "description": "Prompt and efficient repair services to address leaks, damage, and other roofing issues.",
+      "imageUrl": "https://images.unsplash.com/photo-1521791136064-7986c2923216?auto=format&fit=crop&w=400&q=80"
     },
     {
-      "title": "Lifetime Warranty",
-      "description": "We stand behind our work with a comprehensive lifetime warranty on all materials and labor.",
-      "icon": "Shield"
+      "title": "Comprehensive Roof Maintenance",
+      "description": "Regular maintenance plans to extend the life of your roof and prevent costly repairs.",
+      "imageUrl": "https://images.unsplash.com/photo-1521791136064-7986c2923216?auto=format&fit=crop&w=400&q=80"
     }
   ],
   "reviews": [
     {
-      "name": "Michael Stevens",
-      "text": "Best roofing experience I've had. They were professional, fast, and left my property cleaner than they found it.",
+      "name": "John Smith",
+      "text": "EMDF Roofing provided excellent service and quality workmanship. I highly recommend them!",
       "rating": 5
     },
     {
-      "name": "Sarah Jenkins",
-      "text": "Fair prices and excellent communication. They explained every step of the process. Highly recommend!",
+      "name": "Jane Doe",
+      "text": "Very professional and responsive. They fixed my leaky roof quickly and efficiently.",
       "rating": 5
     }
   ],
-  "contact": {
-    "phone": "(555) 123-4567",
-    "email": "hello@summitroofing.com"
-  }
+  "gallery": [
+    "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=800&q=80"
+  ]
 }
