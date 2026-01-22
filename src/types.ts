@@ -1,6 +1,18 @@
+export interface ColorPalette {
+  primary: string;
+  secondary: string;
+  accent: string;
+  background: string;
+  foreground: string;
+}
+
 export interface SiteConfig {
   businessName: string;
   themeColor: string;
+  palette: {
+    light: ColorPalette;
+    dark: ColorPalette;
+  };
   hero: {
     headline: string;
     subhead: string;

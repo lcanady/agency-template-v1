@@ -1,6 +1,22 @@
 {
   "businessName": "Summit Roofing & Exteriors",
   "themeColor": "#2563eb",
+  "palette": {
+    "light": {
+      "primary": "#2563eb",
+      "secondary": "#3b82f6",
+      "accent": "#60a5fa",
+      "background": "#ffffff",
+      "foreground": "#0f172a"
+    },
+    "dark": {
+      "primary": "#3b82f6",
+      "secondary": "#2563eb",
+      "accent": "#1e40af",
+      "background": "#0f172a",
+      "foreground": "#f8fafc"
+    }
+  },
   "hero": {
     "headline": "Protecting Your Home With Precision Craftsmanship",
     "subhead": "The most trusted local roofing experts for over 20 years. Quality materials, expert installation, and a lifetime warranty on all work.",
