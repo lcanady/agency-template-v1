@@ -1,41 +1,69 @@
 {
-  "businessName": "Summit Roofing & Exteriors",
+  "businessName": "Northwest Heating and Air Conditioning Service",
   "themeColor": "#2563eb",
   "hero": {
-    "headline": "Protecting Your Home With Precision Craftsmanship",
-    "subhead": "The most trusted local roofing experts for over 20 years. Quality materials, expert installation, and a lifetime warranty on all work."
+    "headline": "Stay Comfortable Year-Round with Expert HVAC Services",
+    "subhead": "Reliable Heating and Air Conditioning Solutions for Your Home or Business in the Northwest."
   },
   "features": [
     {
-      "title": "Free Inspection",
-      "description": "We offer detailed roof inspections at zero cost to you. Know the state of your roof today.",
-      "icon": "Search"
+      "title": "24/7 Emergency Service",
+      "description": "We're available around the clock to handle any heating or cooling emergency, ensuring your comfort and safety.",
+      "icon": "clock"
     },
     {
-      "title": "24/7 Repairs",
-      "description": "Emergency services available for storm damage and leaks. We're here when you need us.",
-      "icon": "Clock"
+      "title": "Expert Technicians",
+      "description": "Our certified and experienced technicians provide top-quality repairs, maintenance, and installations.",
+      "icon": "wrench"
     },
     {
-      "title": "Lifetime Warranty",
-      "description": "We stand behind our work with a comprehensive lifetime warranty on all materials and labor.",
-      "icon": "Shield"
+      "title": "Upfront Pricing",
+      "description": "We provide transparent and competitive pricing with no hidden fees, so you know exactly what to expect.",
+      "icon": "dollar-sign"
+    },
+    {
+      "title": "Energy-Efficient Solutions",
+      "description": "Save money and reduce your carbon footprint with our energy-efficient HVAC systems and upgrades.",
+      "icon": "leaf"
     }
   ],
   "reviews": [
     {
-      "name": "Michael Stevens",
-      "text": "Best roofing experience I've had. They were professional, fast, and left my property cleaner than they found it.",
+      "name": "Sarah M.",
+      "text": "Northwest Heating and Air Conditioning Service was fantastic! They quickly diagnosed the problem with my furnace and fixed it right away. Highly recommend!",
       "rating": 5
     },
     {
-      "name": "Sarah Jenkins",
-      "text": "Fair prices and excellent communication. They explained every step of the process. Highly recommend!",
+      "name": "John B.",
+      "text": "Professional, efficient, and affordable. I was very impressed with the service I received. They installed my new AC unit perfectly.",
+      "rating": 5
+    },
+    {
+      "name": "Emily K.",
+      "text": "Great customer service and knowledgeable technicians. They took the time to explain everything and answer all my questions.",
       "rating": 5
     }
   ],
   "contact": {
-    "phone": "(555) 123-4567",
-    "email": "hello@summitroofing.com"
-  }
+    "email": "contact@northwestheatingandairconditioningservice.com",
+    "phone": "555-555-1212"
+  },
+  "callToAction": {
+    "text": "Get a Free Quote Today!",
+    "link": "/quote"
+  },
+  "services": [
+    "Heating Repair & Maintenance",
+    "Air Conditioning Repair & Maintenance",
+    "New HVAC System Installation",
+    "Duct Cleaning & Repair",
+    "Indoor Air Quality Solutions"
+  ],
+  "areaServed": [
+    "Seattle, WA",
+    "Tacoma, WA",
+    "Bellevue, WA",
+    "Everett, WA"
+  ],
+  "footerText": "© 2024 Northwest Heating and Air Conditioning Service. All rights reserved."
 }
