@@ -1,59 +1,91 @@
 {
-  "businessName": "Summit Roofing & Exteriors",
+  "businessName": "Breezy HVAC and Construction",
+  "brandIcon": "🌬️",
   "themeColor": "#2563eb",
   "palette": {
     "light": {
       "primary": "#2563eb",
-      "secondary": "#3b82f6",
-      "accent": "#60a5fa",
+      "secondary": "#60a5fa",
+      "accent": "#bfdbfe",
       "background": "#ffffff",
       "foreground": "#0f172a"
     },
     "dark": {
       "primary": "#3b82f6",
-      "secondary": "#2563eb",
-      "accent": "#1e40af",
+      "secondary": "#60a5fa",
+      "accent": "#93c5fd",
       "background": "#0f172a",
-      "foreground": "#f8fafc"
+      "foreground": "#ffffff"
     }
   },
+  "contact": {
+    "email": "contact@breezyhvacandconstruction.com",
+    "phone": "(503) 569-8840",
+    "address": "7185 3rd St SE #6, Turner, OR 97392, USA"
+  },
   "hero": {
-    "headline": "Protecting Your Home With Precision Craftsmanship",
-    "subhead": "The most trusted local roofing experts for over 20 years. Quality materials, expert installation, and a lifetime warranty on all work.",
-    "imageUrl": "https://images.unsplash.com/photo-1632733711679-5292d6863f1c?auto=format&fit=crop&w=1200&q=80",
+    "headline": "Your Comfort, Our Priority: Expert HVAC & Construction Services in Turner, OR",
+    "subhead": "Reliable heating, cooling, and construction solutions tailored to your needs. Serving the Willamette Valley with excellence.",
+    "imageUrl": "https://images.unsplash.com/photo-1566709216229-b78f8a242912?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjEzNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxMjEyMDV8&ixlib=rb-4.1.0&q=80&w=1080",
     "heroStyle": "full"
   },
   "features": [
     {
-      "title": "Free Inspection",
-      "description": "We offer detailed roof inspections at zero cost to you. Know the state of your roof today.",
-      "icon": "Search"
+      "title": "HVAC Installation & Repair",
+      "description": "From new installations to emergency repairs, we ensure your HVAC system runs efficiently year-round. Serving Turner, OR and surrounding areas.",
+      "imageUrl": "https://images.unsplash.com/photo-1553169507-38833977274b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjEzNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxMjEyMDZ8&ixlib=rb-4.1.0&q=80&w=1080"
     },
     {
-      "title": "24/7 Repairs",
-      "description": "Emergency services available for storm damage and leaks. We're here when you need us.",
-      "icon": "Clock"
+      "title": "Construction & Remodeling",
+      "description": "Transform your home with our expert construction and remodeling services. Quality craftsmanship and attention to detail, guaranteed.",
+      "imageUrl": "https://images.unsplash.com/photo-1768321916340-b05845f26f9e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjEzNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxMjEyMDd8&ixlib=rb-4.1.0&q=80&w=1080"
     },
     {
-      "title": "Lifetime Warranty",
-      "description": "We stand behind our work with a comprehensive lifetime warranty on all materials and labor.",
-      "icon": "Shield"
+      "title": "Preventative Maintenance Plans",
+      "description": "Extend the life of your HVAC system and save on energy costs with our comprehensive maintenance plans. Schedule your service today!",
+      "imageUrl": "https://images.unsplash.com/photo-1511700115178-c33f5a8799c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjEzNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxMjEyMDh8&ixlib=rb-4.1.0&q=80&w=1080"
     }
   ],
   "reviews": [
     {
-      "name": "Michael Stevens",
-      "text": "Best roofing experience I've had. They were professional, fast, and left my property cleaner than they found it.",
+      "name": "Sarah M.",
+      "text": "Breezy HVAC and Construction were lifesavers! Our AC went out during a heatwave, and they came out the same day to fix it. Highly recommend!",
       "rating": 5
     },
     {
-      "name": "Sarah Jenkins",
-      "text": "Fair prices and excellent communication. They explained every step of the process. Highly recommend!",
+      "name": "John B.",
+      "text": "We hired Breezy to remodel our kitchen, and we couldn't be happier with the results. The quality of their work is outstanding, and they were a pleasure to work with.",
+      "rating": 5
+    },
+    {
+      "name": "Emily L.",
+      "text": "Excellent service! Breezy HVAC provided a thorough inspection and maintenance of my furnace. It's running better than ever, and I feel confident it's ready for winter.",
       "rating": 5
     }
   ],
-  "contact": {
-    "phone": "(555) 123-4567",
-    "email": "hello@summitroofing.com"
+  "gallery": [],
+  "unsplashCredits": {
+    "hero": {
+      "photographer": "Rebeca Sánchez",
+      "photographerUrl": "https://unsplash.com/@beckysanchezm",
+      "downloadUrl": "https://api.unsplash.com/photos/8lerYqMlqLo/download?ixid=M3w4NjEzNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxMjEyMDV8"
+    },
+    "features": [
+      {
+        "photographer": "boris misevic",
+        "photographerUrl": "https://unsplash.com/@borisview",
+        "downloadUrl": "https://api.unsplash.com/photos/Rw9uB5biNB8/download?ixid=M3w4NjEzNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxMjEyMDZ8"
+      },
+      {
+        "photographer": "Olek Buzunov",
+        "photographerUrl": "https://unsplash.com/@olek_bznv_photo",
+        "downloadUrl": "https://api.unsplash.com/photos/CJgGl38Naco/download?ixid=M3w4NjEzNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxMjEyMDd8"
+      },
+      {
+        "photographer": "Aranka Sinnema",
+        "photographerUrl": "https://unsplash.com/@arankasin",
+        "downloadUrl": "https://api.unsplash.com/photos/G3PFaUfQgL8/download?ixid=M3w4NjEzNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxMjEyMDh8"
+      }
+    ]
   }
 }
