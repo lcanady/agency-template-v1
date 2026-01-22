@@ -1,41 +1,80 @@
 {
-  "businessName": "Summit Roofing & Exteriors",
-  "themeColor": "#2563eb",
+  "businessName": "Salem Roofing",
+  "themeColor": "#2c3e50",
   "hero": {
-    "headline": "Protecting Your Home With Precision Craftsmanship",
-    "subhead": "The most trusted local roofing experts for over 20 years. Quality materials, expert installation, and a lifetime warranty on all work."
+    "headline": "Protecting Salem Homes with Expert Roofing Solutions",
+    "subhead": "Quality Roofing Services, Unmatched Craftsmanship, and Peace of Mind. Serving Salem and Surrounding Areas."
   },
   "features": [
     {
-      "title": "Free Inspection",
-      "description": "We offer detailed roof inspections at zero cost to you. Know the state of your roof today.",
-      "icon": "Search"
+      "title": "Expert Roof Installation",
+      "description": "We provide professional and reliable roof installation services, ensuring your new roof is built to last.",
+      "icon": "wrench"
     },
     {
-      "title": "24/7 Repairs",
-      "description": "Emergency services available for storm damage and leaks. We're here when you need us.",
-      "icon": "Clock"
+      "title": "Comprehensive Roof Repair",
+      "description": "From minor leaks to major storm damage, our experienced team can handle all your roof repair needs efficiently and effectively.",
+      "icon": "hammer"
     },
     {
-      "title": "Lifetime Warranty",
-      "description": "We stand behind our work with a comprehensive lifetime warranty on all materials and labor.",
-      "icon": "Shield"
+      "title": "Thorough Roof Inspections",
+      "description": "Our detailed roof inspections identify potential problems early, helping you avoid costly repairs down the road.",
+      "icon": "search"
+    },
+    {
+      "title": "Premium Materials",
+      "description": "We use only the highest quality roofing materials from trusted manufacturers, ensuring durability and longevity.",
+      "icon": "check-circle"
     }
   ],
   "reviews": [
     {
-      "name": "Michael Stevens",
-      "text": "Best roofing experience I've had. They were professional, fast, and left my property cleaner than they found it.",
+      "name": "John Smith",
+      "text": "Salem Roofing did an amazing job on my roof! They were professional, efficient, and the quality of their work is outstanding. Highly recommend!",
       "rating": 5
     },
     {
-      "name": "Sarah Jenkins",
-      "text": "Fair prices and excellent communication. They explained every step of the process. Highly recommend!",
+      "name": "Jane Doe",
+      "text": "I had a leak in my roof and Salem Roofing came out quickly and fixed it right away. Their service was excellent, and their prices are very reasonable.",
+      "rating": 5
+    },
+    {
+      "name": "Robert Jones",
+      "text": "From start to finish, Salem Roofing provided a seamless and stress-free experience. They were transparent about the process and kept me informed every step of the way.",
       "rating": 5
     }
   ],
   "contact": {
-    "phone": "(555) 123-4567",
-    "email": "hello@summitroofing.com"
-  }
+    "email": "contact@salemroofing.com",
+    "phone": "503-555-7663"
+  },
+  "callToAction": {
+    "text": "Get a Free Quote!",
+    "url": "/quote",
+    "backgroundColor": "#e74c3c",
+    "textColor": "#ffffff"
+  },
+  "footer": {
+    "copyright": "&copy; 2024 Salem Roofing. All rights reserved.",
+    "socialLinks": [
+      {
+        "platform": "facebook",
+        "url": "https://facebook.com/salemroofing"
+      },
+      {
+        "platform": "twitter",
+        "url": "https://twitter.com/salemroofing"
+      }
+    ]
+  },
+  "services": [
+    "Asphalt Shingle Roofing",
+    "Metal Roofing",
+    "Tile Roofing",
+    "Roof Repair",
+    "Roof Replacement",
+    "Gutter Installation",
+    "Skylight Installation"
+  ],
+  "areaServed": "Salem, OR and surrounding areas"
 }
