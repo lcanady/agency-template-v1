@@ -1,43 +1,58 @@
 {
-  "businessName": "Summit Roofing & Exteriors",
+  "businessName": "Northwest Heating and Air Conditioning Service",
   "themeColor": "#2563eb",
+  "palette": {
+    "light": {
+      "primary": "#2563eb",
+      "secondary": "#60a5fa",
+      "accent": "#bfdbfe",
+      "background": "#f9fafb",
+      "foreground": "#1e293b"
+    },
+    "dark": {
+      "primary": "#60a5fa",
+      "secondary": "#3b82f6",
+      "accent": "#1e3a8a",
+      "background": "#0f172a",
+      "foreground": "#e2e8f0"
+    }
+  },
+  "contact": {
+    "email": "contact@northwestheatingandairconditioningservice.com",
+    "phone": "555-0123",
+    "address": "Address not available"
+  },
   "hero": {
-    "headline": "Protecting Your Home With Precision Craftsmanship",
-    "subhead": "The most trusted local roofing experts for over 20 years. Quality materials, expert installation, and a lifetime warranty on all work.",
-    "imageUrl": "https://images.unsplash.com/photo-1632733711679-5292d6863f1c?auto=format&fit=crop&w=1200&q=80",
+    "headline": "Expert Heating and Air Conditioning Services",
+    "subhead": "Keeping Northwest homes comfortable, all year round. Reliable repairs, efficient installations, and trusted maintenance.",
+    "imageUrl": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1200&q=80",
     "heroStyle": "full"
   },
   "features": [
     {
-      "title": "Free Inspection",
-      "description": "We offer detailed roof inspections at zero cost to you. Know the state of your roof today.",
-      "icon": "Search"
+      "title": "24/7 Emergency Repairs",
+      "description": "HVAC emergencies don't wait. We offer prompt, reliable repair services around the clock."
     },
     {
-      "title": "24/7 Repairs",
-      "description": "Emergency services available for storm damage and leaks. We're here when you need us.",
-      "icon": "Clock"
+      "title": "Efficient System Installations",
+      "description": "Upgrade your home with a high-efficiency heating or cooling system, professionally installed by our certified technicians."
     },
     {
-      "title": "Lifetime Warranty",
-      "description": "We stand behind our work with a comprehensive lifetime warranty on all materials and labor.",
-      "icon": "Shield"
+      "title": "Preventative Maintenance Plans",
+      "description": "Extend the life of your HVAC system with our comprehensive maintenance plans. Save money and avoid costly breakdowns."
     }
   ],
   "reviews": [
     {
-      "name": "Michael Stevens",
-      "text": "Best roofing experience I've had. They were professional, fast, and left my property cleaner than they found it.",
+      "name": "Sarah M.",
+      "text": "Northwest Heating and Air Conditioning provided exceptional service. They quickly diagnosed the issue with our furnace and had it fixed in no time. Highly recommend!",
       "rating": 5
     },
     {
-      "name": "Sarah Jenkins",
-      "text": "Fair prices and excellent communication. They explained every step of the process. Highly recommend!",
+      "name": "John B.",
+      "text": "We had a new AC unit installed and the entire process was smooth and professional. The technicians were knowledgeable and friendly. Great job!",
       "rating": 5
     }
   ],
-  "contact": {
-    "phone": "(555) 123-4567",
-    "email": "hello@summitroofing.com"
-  }
+  "gallery": []
 }
