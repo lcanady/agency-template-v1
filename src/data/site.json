@@ -1,41 +1,74 @@
 {
-  "businessName": "Summit Roofing & Exteriors",
-  "themeColor": "#2563eb",
+  "businessName": "EMDF Roofing, LLC",
+  "themeColor": "#2c3e50",
   "hero": {
-    "headline": "Protecting Your Home With Precision Craftsmanship",
-    "subhead": "The most trusted local roofing experts for over 20 years. Quality materials, expert installation, and a lifetime warranty on all work."
+    "headline": "Top-Rated Roofing Services You Can Trust",
+    "subhead": "Protecting Your Home with Quality Roofing Solutions. Free Inspections & Estimates!"
   },
   "features": [
     {
-      "title": "Free Inspection",
-      "description": "We offer detailed roof inspections at zero cost to you. Know the state of your roof today.",
-      "icon": "Search"
+      "title": "Expert Roofing Installation",
+      "description": "Professional installation using premium materials for long-lasting protection and curb appeal.",
+      "icon": "home"
     },
     {
-      "title": "24/7 Repairs",
-      "description": "Emergency services available for storm damage and leaks. We're here when you need us.",
-      "icon": "Clock"
+      "title": "Comprehensive Roof Repair",
+      "description": "Fast and reliable repairs to fix leaks, damage, and other roofing issues, preventing further problems.",
+      "icon": "wrench"
     },
     {
-      "title": "Lifetime Warranty",
-      "description": "We stand behind our work with a comprehensive lifetime warranty on all materials and labor.",
-      "icon": "Shield"
+      "title": "Thorough Roof Inspections",
+      "description": "Detailed inspections to identify potential problems early, saving you money and headaches down the road.",
+      "icon": "search"
+    },
+    {
+      "title": "Emergency Roofing Services",
+      "description": "24/7 emergency services to address urgent roofing needs and prevent further damage.",
+      "icon": "alert"
     }
   ],
   "reviews": [
     {
-      "name": "Michael Stevens",
-      "text": "Best roofing experience I've had. They were professional, fast, and left my property cleaner than they found it.",
+      "name": "John S.",
+      "text": "EMDF Roofing provided exceptional service! They were professional, efficient, and the new roof looks fantastic. Highly recommend!",
       "rating": 5
     },
     {
-      "name": "Sarah Jenkins",
-      "text": "Fair prices and excellent communication. They explained every step of the process. Highly recommend!",
+      "name": "Maria L.",
+      "text": "I had a leak in my roof and EMDF Roofing came out quickly and fixed it perfectly. Very happy with their work and pricing.",
+      "rating": 5
+    },
+    {
+      "name": "David K.",
+      "text": "Honest, reliable, and quality workmanship. EMDF Roofing is the best choice for any roofing needs!",
       "rating": 5
     }
   ],
   "contact": {
-    "phone": "(555) 123-4567",
-    "email": "hello@summitroofing.com"
-  }
+    "email": "contact@emdfroofingllc.com",
+    "phone": "555-0123"
+  },
+  "sections": [
+    {
+      "type": "about",
+      "title": "About EMDF Roofing, LLC",
+      "content": "EMDF Roofing, LLC is a family-owned and operated roofing company dedicated to providing top-quality roofing services to homeowners and businesses. With years of experience and a commitment to excellence, we strive to exceed our customers' expectations with every project."
+    },
+    {
+      "type": "gallery",
+      "title": "Our Work",
+      "images": [
+        "image1.jpg",
+        "image2.jpg",
+        "image3.jpg"
+      ]
+    },
+    {
+      "type": "cta",
+      "title": "Get a Free Estimate Today!",
+      "description": "Contact us now to schedule a free inspection and estimate for your roofing project.",
+      "buttonText": "Request a Quote",
+      "buttonLink": "/contact"
+    }
+  ]
 }
