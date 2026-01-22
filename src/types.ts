@@ -6,14 +6,14 @@ export interface SiteConfig {
     subhead: string;
     imageUrl?: string;
   };
-  features: Array<{
+  features?: Array<{
     title: string;
     description: string;
     icon: string;
     imageUrl?: string;
   }>;
   gallery?: string[];
-  reviews: Array<{
+  reviews?: Array<{
     name: string;
     text: string;
     rating: number;

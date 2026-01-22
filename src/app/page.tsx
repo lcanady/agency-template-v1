@@ -99,7 +99,7 @@ export default function Home() {
             <p className="text-lg text-gray-600">We take pride in every project we handle, ensuring the highest standards of quality and customer satisfaction.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
-            {site.features.map((feature, idx) => (
+            {(site.features || []).map((feature, idx) => (
               <div key={idx} className="bg-white p-10 rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl transition-all hover:-translate-y-1 group">
                 <div 
                   className="w-16 h-16 rounded-2xl flex items-center justify-center mb-8 bg-opacity-10 group-hover:scale-110 transition-transform overflow-hidden font-bold"
@@ -161,7 +161,7 @@ export default function Home() {
             </div>
           </div>
           <div className="grid md:grid-cols-2 gap-8">
-            {site.reviews.map((review, idx) => (
+            {(site.reviews || []).map((review, idx) => (
               <div key={idx} className="bg-gray-50 p-10 rounded-3xl relative">
                 <div className="text-6xl absolute top-8 right-8 text-gray-200 pointer-events-none">"</div>
                 <p className="text-xl text-gray-700 italic mb-8 relative z-10">"{review.text}"</p>
