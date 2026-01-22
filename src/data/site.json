@@ -1,59 +1,65 @@
 {
-  "businessName": "Summit Roofing & Exteriors",
+  "businessName": "Northwest Heating and Air Conditioning Service",
+  "brandIcon": "🔥",
   "themeColor": "#2563eb",
   "palette": {
     "light": {
       "primary": "#2563eb",
-      "secondary": "#3b82f6",
-      "accent": "#60a5fa",
-      "background": "#ffffff",
-      "foreground": "#0f172a"
+      "secondary": "#60a5fa",
+      "accent": "#bfdbfe",
+      "background": "#f9fafb",
+      "foreground": "#1e3a8a"
     },
     "dark": {
-      "primary": "#3b82f6",
+      "primary": "#60a5fa",
       "secondary": "#2563eb",
-      "accent": "#1e40af",
-      "background": "#0f172a",
-      "foreground": "#f8fafc"
+      "accent": "#3b82f6",
+      "background": "#1e3a8a",
+      "foreground": "#e2e8f0"
     }
   },
+  "contact": {
+    "email": "contact@northwestheatingandairconditioningservice.com",
+    "phone": "555-0123",
+    "address": "Address not available"
+  },
   "hero": {
-    "headline": "Protecting Your Home With Precision Craftsmanship",
-    "subhead": "The most trusted local roofing experts for over 20 years. Quality materials, expert installation, and a lifetime warranty on all work.",
-    "imageUrl": "https://images.unsplash.com/photo-1632733711679-5292d6863f1c?auto=format&fit=crop&w=1200&q=80",
+    "headline": "Stay Comfortable Year-Round with Northwest Heating & Air",
+    "subhead": "Expert HVAC services for your home or business. Installation, repair, and maintenance.",
+    "imageUrl": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
     "heroStyle": "full"
   },
   "features": [
     {
-      "title": "Free Inspection",
-      "description": "We offer detailed roof inspections at zero cost to you. Know the state of your roof today.",
-      "icon": "Search"
+      "title": "24/7 Emergency Service",
+      "description": "We're available around the clock to handle any HVAC emergencies, ensuring your comfort and safety.",
+      "imageUrl": "https://images.unsplash.com/photo-1521791136064-7986c2923216?auto=format&fit=crop&w=400&q=80"
     },
     {
-      "title": "24/7 Repairs",
-      "description": "Emergency services available for storm damage and leaks. We're here when you need us.",
-      "icon": "Clock"
+      "title": "Expert Installation",
+      "description": "Professional installation of new heating and cooling systems for optimal performance and energy efficiency.",
+      "imageUrl": "https://images.unsplash.com/photo-1521791136064-7986c2923216?auto=format&fit=crop&w=400&q=80"
     },
     {
-      "title": "Lifetime Warranty",
-      "description": "We stand behind our work with a comprehensive lifetime warranty on all materials and labor.",
-      "icon": "Shield"
+      "title": "Reliable Repairs",
+      "description": "Fast and dependable repair services for all makes and models of HVAC equipment. We get it done right, the first time.",
+      "imageUrl": "https://images.unsplash.com/photo-1521791136064-7986c2923216?auto=format&fit=crop&w=400&q=80"
     }
   ],
   "reviews": [
     {
-      "name": "Michael Stevens",
-      "text": "Best roofing experience I've had. They were professional, fast, and left my property cleaner than they found it.",
+      "name": "Jane Doe",
+      "text": "Northwest Heating & Air was incredibly responsive and professional. They fixed my AC unit quickly and efficiently!",
       "rating": 5
     },
     {
-      "name": "Sarah Jenkins",
-      "text": "Fair prices and excellent communication. They explained every step of the process. Highly recommend!",
+      "name": "John Smith",
+      "text": "Excellent service! The technician was knowledgeable and explained everything clearly. Highly recommend!",
       "rating": 5
     }
   ],
-  "contact": {
-    "phone": "(555) 123-4567",
-    "email": "hello@summitroofing.com"
-  }
+  "gallery": [
+    "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=800&q=80"
+  ]
 }
