@@ -1,59 +1,58 @@
 {
-  "businessName": "Summit Roofing & Exteriors",
-  "themeColor": "#2563eb",
+  "businessName": "Curb Appeal Specialist",
+  "themeColor": "#2e7d32",
   "palette": {
     "light": {
-      "primary": "#2563eb",
-      "secondary": "#3b82f6",
-      "accent": "#60a5fa",
-      "background": "#ffffff",
-      "foreground": "#0f172a"
+      "primary": "#2e7d32",
+      "secondary": "#4caf50",
+      "accent": "#81c784",
+      "background": "#f5f5f5",
+      "foreground": "#212121"
     },
     "dark": {
-      "primary": "#3b82f6",
-      "secondary": "#2563eb",
-      "accent": "#1e40af",
-      "background": "#0f172a",
-      "foreground": "#f8fafc"
+      "primary": "#66bb6a",
+      "secondary": "#43a047",
+      "accent": "#66bb6a",
+      "background": "#121212",
+      "foreground": "#e0e0e0"
     }
   },
+  "contact": {
+    "email": "contact@curbappealspecialist.com",
+    "phone": "(971) 865-6583",
+    "address": "581 Lancaster Dr SE #293, Salem, OR 97317, USA"
+  },
   "hero": {
-    "headline": "Protecting Your Home With Precision Craftsmanship",
-    "subhead": "The most trusted local roofing experts for over 20 years. Quality materials, expert installation, and a lifetime warranty on all work.",
-    "imageUrl": "https://images.unsplash.com/photo-1632733711679-5292d6863f1c?auto=format&fit=crop&w=1200&q=80",
+    "headline": "Transform Your Home's First Impression",
+    "subhead": "Expert curb appeal solutions that boost value and create lasting beauty.",
+    "imageUrl": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1200&q=80",
     "heroStyle": "full"
   },
   "features": [
     {
-      "title": "Free Inspection",
-      "description": "We offer detailed roof inspections at zero cost to you. Know the state of your roof today.",
-      "icon": "Search"
+      "title": "Exterior House Washing",
+      "description": "Remove dirt, grime, and mold with our gentle yet effective pressure washing techniques. Restore your home's beauty without damaging surfaces."
     },
     {
-      "title": "24/7 Repairs",
-      "description": "Emergency services available for storm damage and leaks. We're here when you need us.",
-      "icon": "Clock"
+      "title": "Driveway & Patio Cleaning",
+      "description": "Say goodbye to oil stains, algae, and discoloration. We'll revitalize your driveways and patios, making them look like new."
     },
     {
-      "title": "Lifetime Warranty",
-      "description": "We stand behind our work with a comprehensive lifetime warranty on all materials and labor.",
-      "icon": "Shield"
+      "title": "Deck Restoration",
+      "description": "Bring your deck back to life.  We clean, stain, and seal decks to protect them from the elements and enhance their natural beauty."
     }
   ],
   "reviews": [
     {
-      "name": "Michael Stevens",
-      "text": "Best roofing experience I've had. They were professional, fast, and left my property cleaner than they found it.",
+      "name": "Sarah M.",
+      "text": "Curb Appeal Specialist did an amazing job! My house looks brand new. Professional, on time, and exceeded my expectations.",
       "rating": 5
     },
     {
-      "name": "Sarah Jenkins",
-      "text": "Fair prices and excellent communication. They explained every step of the process. Highly recommend!",
+      "name": "John B.",
+      "text": "Excellent service!  My driveway was covered in oil stains, and they were able to remove them completely. Highly recommend!",
       "rating": 5
     }
   ],
-  "contact": {
-    "phone": "(555) 123-4567",
-    "email": "hello@summitroofing.com"
-  }
+  "gallery": []
 }
