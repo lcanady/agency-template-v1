@@ -1,59 +1,71 @@
 {
-  "businessName": "Summit Roofing & Exteriors",
-  "themeColor": "#2563eb",
+  "businessName": "Russell's Landscape Services Inc",
+  "brandIcon": "🌳",
+  "themeColor": "#388E3C",
   "palette": {
     "light": {
-      "primary": "#2563eb",
-      "secondary": "#3b82f6",
-      "accent": "#60a5fa",
-      "background": "#ffffff",
-      "foreground": "#0f172a"
+      "primary": "#388E3C",
+      "secondary": "#66BB6A",
+      "accent": "#81C784",
+      "background": "#F1F8E9",
+      "foreground": "#2E7D32"
     },
     "dark": {
-      "primary": "#3b82f6",
-      "secondary": "#2563eb",
-      "accent": "#1e40af",
-      "background": "#0f172a",
-      "foreground": "#f8fafc"
+      "primary": "#66BB6A",
+      "secondary": "#388E3C",
+      "accent": "#43A047",
+      "background": "#2E7D32",
+      "foreground": "#DCEDC8"
     }
   },
+  "contact": {
+    "email": "contact@russellslandscapeservicesinc.com",
+    "phone": "(503) 363-9835",
+    "address": "3901 Timbet Dr SE, Salem, OR 97317, USA"
+  },
   "hero": {
-    "headline": "Protecting Your Home With Precision Craftsmanship",
-    "subhead": "The most trusted local roofing experts for over 20 years. Quality materials, expert installation, and a lifetime warranty on all work.",
-    "imageUrl": "https://images.unsplash.com/photo-1632733711679-5292d6863f1c?auto=format&fit=crop&w=1200&q=80",
+    "headline": "Transform Your Outdoor Space with Russell's",
+    "subhead": "Expert landscaping services in Salem, OR. From design to maintenance, we bring your vision to life.",
+    "imageUrl": "https://source.unsplash.com/random/1200x720?landscaper,hero,background,for,Russell's,Landscape,Services,Inc&sig=1769103902641",
     "heroStyle": "full"
   },
   "features": [
     {
-      "title": "Free Inspection",
-      "description": "We offer detailed roof inspections at zero cost to you. Know the state of your roof today.",
-      "icon": "Search"
+      "title": "Custom Landscape Design",
+      "description": "We create stunning, personalized landscape designs tailored to your property and lifestyle.",
+      "imageUrl": "https://source.unsplash.com/random/400x240?landscaper,Custom,Landscape,Design&sig=1769103903358"
     },
     {
-      "title": "24/7 Repairs",
-      "description": "Emergency services available for storm damage and leaks. We're here when you need us.",
-      "icon": "Clock"
+      "title": "Professional Lawn Care",
+      "description": "Keep your lawn healthy and vibrant with our expert mowing, fertilization, and weed control services.",
+      "imageUrl": "https://source.unsplash.com/random/400x240?landscaper,Professional,Lawn,Care&sig=1769103903979"
     },
     {
-      "title": "Lifetime Warranty",
-      "description": "We stand behind our work with a comprehensive lifetime warranty on all materials and labor.",
-      "icon": "Shield"
+      "title": "Hardscaping & Construction",
+      "description": "Enhance your outdoor living space with patios, walkways, retaining walls, and other hardscaping features.",
+      "imageUrl": "https://source.unsplash.com/random/400x240?landscaper,Hardscaping,&,Construction&sig=1769103904438"
     }
   ],
   "reviews": [
     {
-      "name": "Michael Stevens",
-      "text": "Best roofing experience I've had. They were professional, fast, and left my property cleaner than they found it.",
+      "name": "Sarah M.",
+      "text": "Russell's Landscape Services completely transformed our backyard! They listened to our ideas and created a beautiful, functional space that we love. Highly recommend!",
       "rating": 5
     },
     {
-      "name": "Sarah Jenkins",
-      "text": "Fair prices and excellent communication. They explained every step of the process. Highly recommend!",
+      "name": "John B.",
+      "text": "We've been using Russell's for our lawn care for years and are always impressed with their professionalism and attention to detail. Our lawn has never looked better!",
+      "rating": 5
+    },
+    {
+      "name": "Emily K.",
+      "text": "Excellent service! Russell's team was punctual, efficient, and did a fantastic job installing our new patio. We couldn't be happier with the results.",
       "rating": 5
     }
   ],
-  "contact": {
-    "phone": "(555) 123-4567",
-    "email": "hello@summitroofing.com"
-  }
+  "gallery": [
+    "https://source.unsplash.com/random/800x480?landscaper,landscaper,professional,work,environment,0&sig=1769103905537",
+    "https://source.unsplash.com/random/800x480?landscaper,landscaper,professional,work,environment,1&sig=1769103905537",
+    "https://source.unsplash.com/random/800x480?landscaper,landscaper,professional,work,environment,2&sig=1769103905538"
+  ]
 }
