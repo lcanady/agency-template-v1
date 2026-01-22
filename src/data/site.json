@@ -1,59 +1,112 @@
 {
-  "businessName": "Summit Roofing & Exteriors",
+  "businessName": "Coolsys Refrigeration & HVAC",
+  "brandIcon": "❄️",
   "themeColor": "#2563eb",
   "palette": {
     "light": {
       "primary": "#2563eb",
       "secondary": "#3b82f6",
       "accent": "#60a5fa",
-      "background": "#ffffff",
-      "foreground": "#0f172a"
+      "background": "#f0f9ff",
+      "foreground": "#0b2545"
     },
     "dark": {
       "primary": "#3b82f6",
       "secondary": "#2563eb",
       "accent": "#1e40af",
-      "background": "#0f172a",
-      "foreground": "#f8fafc"
+      "background": "#0b2545",
+      "foreground": "#dbeafe"
     }
   },
+  "contact": {
+    "email": "contact@coolsysrefrigerationhvac.com",
+    "phone": "(503) 363-1012",
+    "address": "1745 25th St SE, Salem, OR 97302, USA"
+  },
   "hero": {
-    "headline": "Protecting Your Home With Precision Craftsmanship",
-    "subhead": "The most trusted local roofing experts for over 20 years. Quality materials, expert installation, and a lifetime warranty on all work.",
-    "imageUrl": "https://images.unsplash.com/photo-1632733711679-5292d6863f1c?auto=format&fit=crop&w=1200&q=80",
+    "headline": "Optimal Climate Solutions for Your Comfort & Business",
+    "subhead": "Expert Refrigeration & HVAC Services in Salem, OR and Beyond. Installation, Maintenance, Repairs, and 24/7 Emergency Service.",
+    "imageUrl": "https://images.unsplash.com/photo-1760909059710-fc8aa1da6f5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjEzNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxMjI4NDl8&ixlib=rb-4.1.0&q=80&w=1080",
     "heroStyle": "full"
   },
   "features": [
     {
-      "title": "Free Inspection",
-      "description": "We offer detailed roof inspections at zero cost to you. Know the state of your roof today.",
-      "icon": "Search"
+      "title": "24/7 Emergency Service",
+      "description": "Reliable emergency HVAC and refrigeration services, available 24/7, to keep your home or business running smoothly.",
+      "imageUrl": "https://images.unsplash.com/photo-1690210795382-d3c947a1e9ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjEzNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxMjI4NTB8&ixlib=rb-4.1.0&q=80&w=1080"
     },
     {
-      "title": "24/7 Repairs",
-      "description": "Emergency services available for storm damage and leaks. We're here when you need us.",
-      "icon": "Clock"
+      "title": "Expert Installation & Maintenance",
+      "description": "Professional installation and maintenance services for all types of refrigeration and HVAC systems, ensuring optimal performance and longevity.",
+      "imageUrl": "https://images.unsplash.com/photo-1765850262030-1ae93e474473?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjEzNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxMjI4NTF8&ixlib=rb-4.1.0&q=80&w=1080"
     },
     {
-      "title": "Lifetime Warranty",
-      "description": "We stand behind our work with a comprehensive lifetime warranty on all materials and labor.",
-      "icon": "Shield"
+      "title": "Energy-Efficient Upgrades",
+      "description": "Reduce your energy bills and environmental impact with our energy-efficient HVAC and refrigeration upgrades. Consult with our experts for tailored solutions.",
+      "imageUrl": "https://images.unsplash.com/photo-1700234869683-44c38b58f012?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjEzNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxMjI4NTJ8&ixlib=rb-4.1.0&q=80&w=1080"
     }
   ],
   "reviews": [
     {
-      "name": "Michael Stevens",
-      "text": "Best roofing experience I've had. They were professional, fast, and left my property cleaner than they found it.",
+      "name": "Sarah Miller",
+      "text": "Coolsys has been maintaining our restaurant's refrigeration system for years. They are always responsive, professional, and their technicians are top-notch. Highly recommend!",
       "rating": 5
     },
     {
-      "name": "Sarah Jenkins",
-      "text": "Fair prices and excellent communication. They explained every step of the process. Highly recommend!",
+      "name": "John Davis",
+      "text": "Our AC broke down in the middle of summer. Coolsys came out quickly and got it fixed the same day! They saved us from a very uncomfortable situation. Great service!",
+      "rating": 5
+    },
+    {
+      "name": "Emily Wilson",
+      "text": "We recently upgraded to a more efficient HVAC system with Coolsys. The installation was smooth, and we've already noticed a significant reduction in our energy costs. Very happy with the result!",
       "rating": 5
     }
   ],
-  "contact": {
-    "phone": "(555) 123-4567",
-    "email": "hello@summitroofing.com"
+  "gallery": [
+    "https://images.unsplash.com/photo-1693497282176-5db5e2dc6916?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjEzNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxMjI4NTJ8&ixlib=rb-4.1.0&q=80&w=1080",
+    "https://images.unsplash.com/photo-1653491426519-c119f0a8a77b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjEzNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxMjI4NTJ8&ixlib=rb-4.1.0&q=80&w=1080",
+    "https://images.unsplash.com/photo-1692987909694-772e94e69ddf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjEzNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxMjI4NTJ8&ixlib=rb-4.1.0&q=80&w=1080"
+  ],
+  "unsplashCredits": {
+    "hero": {
+      "photographer": "Pau Gomez",
+      "photographerUrl": "https://unsplash.com/@pauggg",
+      "downloadUrl": "https://api.unsplash.com/photos/vpgAxKemUYY/download?ixid=M3w4NjEzNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxMjI4NDl8"
+    },
+    "features": [
+      {
+        "photographer": "Ahmad shalbaf",
+        "photographerUrl": "https://unsplash.com/@ahmad_shalbaf",
+        "downloadUrl": "https://api.unsplash.com/photos/eUbgHVhU2s8/download?ixid=M3w4NjEzNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxMjI4NTB8"
+      },
+      {
+        "photographer": "Joao Vitor Marcilio",
+        "photographerUrl": "https://unsplash.com/@jvmarcilio",
+        "downloadUrl": "https://api.unsplash.com/photos/elIxMb1_LEg/download?ixid=M3w4NjEzNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxMjI4NTF8"
+      },
+      {
+        "photographer": "jens schwan",
+        "photographerUrl": "https://unsplash.com/@theclubmap",
+        "downloadUrl": "https://api.unsplash.com/photos/_Uueb7Rme-U/download?ixid=M3w4NjEzNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxMjI4NTJ8"
+      }
+    ],
+    "gallery": [
+      {
+        "photographer": "Sorin Basangeac",
+        "photographerUrl": "https://unsplash.com/@sorinbasangeac",
+        "downloadUrl": "https://api.unsplash.com/photos/r2kDVBBwlV8/download?ixid=M3w4NjEzNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxMjI4NTJ8"
+      },
+      {
+        "photographer": "Tuyen Vo",
+        "photographerUrl": "https://unsplash.com/@bitu2104",
+        "downloadUrl": "https://api.unsplash.com/photos/xn5Wd389Y_g/download?ixid=M3w4NjEzNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxMjI4NTJ8"
+      },
+      {
+        "photographer": "Lia Den",
+        "photographerUrl": "https://unsplash.com/@liaden",
+        "downloadUrl": "https://api.unsplash.com/photos/kAWXKpctuSY/download?ixid=M3w4NjEzNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxMjI4NTJ8"
+      }
+    ]
   }
 }
