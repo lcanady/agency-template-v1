@@ -1,59 +1,58 @@
 {
-  "businessName": "Summit Roofing & Exteriors",
-  "themeColor": "#2563eb",
+  "businessName": "Affordable landscape maintenance service",
+  "themeColor": "#38A3A5",
   "palette": {
     "light": {
-      "primary": "#2563eb",
-      "secondary": "#3b82f6",
-      "accent": "#60a5fa",
-      "background": "#ffffff",
-      "foreground": "#0f172a"
+      "primary": "#38A3A5",
+      "secondary": "#57CC99",
+      "accent": "#80ED99",
+      "background": "#F0F9F4",
+      "foreground": "#22577A"
     },
     "dark": {
-      "primary": "#3b82f6",
-      "secondary": "#2563eb",
-      "accent": "#1e40af",
-      "background": "#0f172a",
-      "foreground": "#f8fafc"
+      "primary": "#57CC99",
+      "secondary": "#38A3A5",
+      "accent": "#22577A",
+      "background": "#22577A",
+      "foreground": "#E0FBFC"
     }
   },
+  "contact": {
+    "email": "contact@affordablelandscapemaintenanceservice.com",
+    "phone": "(503) 385-7952",
+    "address": "4616 Reimann St NE, Salem, OR 97305, USA"
+  },
   "hero": {
-    "headline": "Protecting Your Home With Precision Craftsmanship",
-    "subhead": "The most trusted local roofing experts for over 20 years. Quality materials, expert installation, and a lifetime warranty on all work.",
-    "imageUrl": "https://images.unsplash.com/photo-1632733711679-5292d6863f1c?auto=format&fit=crop&w=1200&q=80",
+    "headline": "Love Your Lawn Again!",
+    "subhead": "Professional landscape maintenance services that fit your budget.",
+    "imageUrl": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1200&q=80",
     "heroStyle": "full"
   },
   "features": [
     {
-      "title": "Free Inspection",
-      "description": "We offer detailed roof inspections at zero cost to you. Know the state of your roof today.",
-      "icon": "Search"
+      "title": "Lawn Mowing & Maintenance",
+      "description": "Keep your lawn looking pristine with our regular mowing, edging, and blowing services."
     },
     {
-      "title": "24/7 Repairs",
-      "description": "Emergency services available for storm damage and leaks. We're here when you need us.",
-      "icon": "Clock"
+      "title": "Garden Bed Care",
+      "description": "Weeding, mulching, pruning, and planting to keep your garden beds thriving."
     },
     {
-      "title": "Lifetime Warranty",
-      "description": "We stand behind our work with a comprehensive lifetime warranty on all materials and labor.",
-      "icon": "Shield"
+      "title": "Shrub & Hedge Trimming",
+      "description": "Professional trimming and shaping to maintain the health and appearance of your shrubs and hedges."
     }
   ],
   "reviews": [
     {
-      "name": "Michael Stevens",
-      "text": "Best roofing experience I've had. They were professional, fast, and left my property cleaner than they found it.",
+      "name": "Sarah M.",
+      "text": "Affordable landscape maintenance service transformed my yard! They are reliable, efficient, and do a fantastic job.",
       "rating": 5
     },
     {
-      "name": "Sarah Jenkins",
-      "text": "Fair prices and excellent communication. They explained every step of the process. Highly recommend!",
+      "name": "John B.",
+      "text": "I've been using this service for years and I'm always impressed with their attention to detail. Highly recommend!",
       "rating": 5
     }
   ],
-  "contact": {
-    "phone": "(555) 123-4567",
-    "email": "hello@summitroofing.com"
-  }
+  "gallery": []
 }
