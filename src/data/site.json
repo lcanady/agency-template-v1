@@ -1,59 +1,61 @@
 {
-  "businessName": "Summit Roofing & Exteriors",
-  "themeColor": "#2563eb",
+  "businessName": "Campos Landscaping Maintenance LLC",
+  "themeColor": "#38A3A5",
   "palette": {
     "light": {
-      "primary": "#2563eb",
-      "secondary": "#3b82f6",
-      "accent": "#60a5fa",
-      "background": "#ffffff",
-      "foreground": "#0f172a"
+      "primary": "#38A3A5",
+      "secondary": "#57CC99",
+      "accent": "#80ED99",
+      "background": "#F0F9F4",
+      "foreground": "#22577A"
     },
     "dark": {
-      "primary": "#3b82f6",
-      "secondary": "#2563eb",
-      "accent": "#1e40af",
-      "background": "#0f172a",
-      "foreground": "#f8fafc"
+      "primary": "#57CC99",
+      "secondary": "#38A3A5",
+      "accent": "#22577A",
+      "background": "#22577A",
+      "foreground": "#F0F9F4"
     }
   },
+  "contact": {
+    "email": "contact@camposlandscapingmaintenancellc.com",
+    "phone": "(971) 209-8683",
+    "address": "1073 S 6th St, Independence, OR 97351, USA"
+  },
   "hero": {
-    "headline": "Protecting Your Home With Precision Craftsmanship",
-    "subhead": "The most trusted local roofing experts for over 20 years. Quality materials, expert installation, and a lifetime warranty on all work.",
-    "imageUrl": "https://images.unsplash.com/photo-1632733711679-5292d6863f1c?auto=format&fit=crop&w=1200&q=80",
+    "headline": "Transform Your Outdoor Space with Campos Landscaping",
+    "subhead": "Expert landscaping and maintenance services to keep your property looking its best, all year round.",
+    "imageUrl": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1200&q=80",
     "heroStyle": "full"
   },
   "features": [
     {
-      "title": "Free Inspection",
-      "description": "We offer detailed roof inspections at zero cost to you. Know the state of your roof today.",
-      "icon": "Search"
+      "title": "Lawn Care & Maintenance",
+      "description": "Professional lawn mowing, fertilization, aeration, and weed control to keep your lawn healthy and vibrant.",
+      "imageUrl": null
     },
     {
-      "title": "24/7 Repairs",
-      "description": "Emergency services available for storm damage and leaks. We're here when you need us.",
-      "icon": "Clock"
+      "title": "Landscape Design & Installation",
+      "description": "Custom landscape design tailored to your preferences and property, including planting, hardscaping, and irrigation systems.",
+      "imageUrl": null
     },
     {
-      "title": "Lifetime Warranty",
-      "description": "We stand behind our work with a comprehensive lifetime warranty on all materials and labor.",
-      "icon": "Shield"
+      "title": "Seasonal Clean-Up",
+      "description": "Comprehensive spring and fall clean-up services to remove debris, prepare your landscape for the changing seasons, and prevent potential problems.",
+      "imageUrl": null
     }
   ],
   "reviews": [
     {
-      "name": "Michael Stevens",
-      "text": "Best roofing experience I've had. They were professional, fast, and left my property cleaner than they found it.",
+      "name": "John Smith",
+      "text": "Campos Landscaping has transformed my yard! Their attention to detail and commitment to quality are outstanding. Highly recommend!",
       "rating": 5
     },
     {
-      "name": "Sarah Jenkins",
-      "text": "Fair prices and excellent communication. They explained every step of the process. Highly recommend!",
+      "name": "Emily Johnson",
+      "text": "Reliable, professional, and reasonably priced. Campos Landscaping always goes above and beyond to ensure my lawn looks its best.",
       "rating": 5
     }
   ],
-  "contact": {
-    "phone": "(555) 123-4567",
-    "email": "hello@summitroofing.com"
-  }
+  "gallery": []
 }
