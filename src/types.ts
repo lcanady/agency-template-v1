@@ -9,7 +9,7 @@ export interface SiteConfig {
   features?: Array<{
     title: string;
     description: string;
-    icon: string;
+    icon?: string;
     imageUrl?: string;
   }>;
   gallery?: string[];
