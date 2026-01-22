@@ -1,41 +1,78 @@
 {
-  "businessName": "Summit Roofing & Exteriors",
-  "themeColor": "#2563eb",
+  "themeColor": "#388E3C",
   "hero": {
-    "headline": "Protecting Your Home With Precision Craftsmanship",
-    "subhead": "The most trusted local roofing experts for over 20 years. Quality materials, expert installation, and a lifetime warranty on all work."
+    "title": "Transform Your Yard with Campos Landscaping Maintenance LLC",
+    "subtitle": "Expert lawn care, landscaping, and maintenance services for a beautiful and healthy outdoor space.",
+    "cta": "Get a Free Quote"
   },
   "features": [
     {
-      "title": "Free Inspection",
-      "description": "We offer detailed roof inspections at zero cost to you. Know the state of your roof today.",
-      "icon": "Search"
+      "title": "Lawn Care & Maintenance",
+      "desc": "Keep your lawn healthy and green with our expert mowing, fertilization, aeration, and weed control services."
     },
     {
-      "title": "24/7 Repairs",
-      "description": "Emergency services available for storm damage and leaks. We're here when you need us.",
-      "icon": "Clock"
+      "title": "Landscaping Design & Installation",
+      "desc": "Create the outdoor oasis of your dreams with our custom landscape design and installation services."
     },
     {
-      "title": "Lifetime Warranty",
-      "description": "We stand behind our work with a comprehensive lifetime warranty on all materials and labor.",
-      "icon": "Shield"
+      "title": "Seasonal Clean-Up",
+      "desc": "Prepare your property for the changing seasons with our spring and fall clean-up services, including leaf removal and debris removal."
+    },
+    {
+      "title": "Hardscaping Services",
+      "desc": "Enhance your outdoor living space with patios, walkways, retaining walls, and more."
     }
   ],
   "reviews": [
     {
-      "name": "Michael Stevens",
-      "text": "Best roofing experience I've had. They were professional, fast, and left my property cleaner than they found it.",
-      "rating": 5
+      "author": "John S.",
+      "text": "Campos Landscaping did an amazing job transforming my overgrown yard into a beautiful space. Highly recommend!"
     },
     {
-      "name": "Sarah Jenkins",
-      "text": "Fair prices and excellent communication. They explained every step of the process. Highly recommend!",
-      "rating": 5
+      "author": "Maria G.",
+      "text": "Reliable, professional, and reasonably priced. I'm so glad I chose Campos Landscaping for my lawn maintenance needs."
     }
   ],
   "contact": {
-    "phone": "(555) 123-4567",
-    "email": "hello@summitroofing.com"
+    "email": "contact@camposlandscapingmaintenancellc.com",
+    "phone": "555-555-1212"
+  },
+  "services": [
+    {
+      "title": "Mowing",
+      "desc": "Professional mowing services to keep your lawn looking its best."
+    },
+    {
+      "title": "Fertilization",
+      "desc": "Customized fertilization programs for a healthy and vibrant lawn."
+    },
+    {
+      "title": "Weed Control",
+      "desc": "Effective weed control solutions to eliminate unwanted growth."
+    },
+    {
+      "title": "Mulching",
+      "desc": "Enhance your landscape with quality mulch to retain moisture and suppress weeds."
+    }
+  ],
+  "images": [
+    {
+      "url": "/images/landscaping1.jpg",
+      "alt": "Beautiful Landscaping Design"
+    },
+    {
+      "url": "/images/lawncare.jpg",
+      "alt": "Healthy Green Lawn"
+    }
+  ],
+  "testimonials": [
+    {
+      "author": "Jane Doe",
+      "text": "Campos Landscaping exceeded my expectations! My yard has never looked better.",
+      "image": "/images/jane.jpg"
+    }
+  ],
+  "footer": {
+    "copyright": "&copy; 2024 Campos Landscaping Maintenance LLC"
   }
 }
