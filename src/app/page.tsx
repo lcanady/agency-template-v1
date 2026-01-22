@@ -49,27 +49,25 @@ export default function Home() {
         </div>
       </nav>
 
-      {/* Hero Section */}
-      <section className={`relative overflow-hidden ${site.hero.heroStyle === 'full' ? 'min-h-screen flex items-center pt-20' : 'pt-32 pb-20 md:pt-48 md:pb-32'}`}>
-        {site.hero.heroStyle === 'full' ? (
-          <>
-            {/* Full Viewport Background */}
-            <div className="absolute inset-0 -z-10">
-              {site.hero.imageUrl ? (
-                <Image 
-                  src={site.hero.imageUrl} 
-                  alt={site.businessName}
-                  fill
-                  className="object-cover"
-                  priority
-                />
-              ) : (
-                <div className="absolute inset-0 bg-gray-900" style={{ background: `linear-gradient(135deg, var(--primary)22, #111827)` }} />
-              )}
-              {/* Premium Gradient Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/20" />
-            </div>
+      {/* Hero Section - Always Full Viewport */}
+      <section className="relative overflow-hidden min-h-screen flex items-center pt-20">
+        {/* Full Viewport Background */}
+        <div className="absolute inset-0 -z-10">
+          {site.hero.imageUrl ? (
+            <Image 
+              src={site.hero.imageUrl} 
+              alt={site.businessName}
+              fill
+              className="object-contain"
+              priority
+            />
+          ) : (
+            <div className="absolute inset-0 bg-gray-900" style={{ background: `linear-gradient(135deg, var(--primary)22, #111827)` }} />
+          )}
+          {/* Premium Gradient Overlay */}
+          <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/20" />
+        </div>
 
             <div className="max-w-7xl mx-auto px-6 w-full">
               <div className="max-w-3xl space-y-8">
@@ -97,69 +95,7 @@ export default function Home() {
                   </button>
                 </div>
               </div>
-            </div>
-          </>
-        ) : (
-          <>
-            {/* Split Layout (Existing) */}
-            <div 
-              className="absolute top-0 right-0 -z-10 w-[50%] h-[100%] opacity-[0.05] pointer-events-none"
-              style={{ background: `radial-gradient(circle at 50% 50%, var(--primary), transparent)` }}
-            />
-            <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
-              <div className="space-y-8">
-                <div 
-                  className="inline-block px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest bg-foreground/5 border border-foreground/10 text-primary"
-                >
-                  Professional Services
-                </div>
-                <h1 className="text-5xl md:text-7xl font-bold text-foreground leading-[1.1] tracking-tight">
-                  {site.hero.headline}
-                </h1>
-                <p className="text-xl text-foreground/60 leading-relaxed max-w-lg">
-                  {site.hero.subhead}
-                </p>
-                <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                  <a 
-                    href={`tel:${site.contact.phone}`}
-                    className="px-8 py-4 rounded-xl text-white font-semibold text-lg hover:brightness-110 transition-all shadow-xl active:scale-[0.98] text-center bg-primary"
-                    style={{ boxShadow: `0 20px 25px -5px var(--primary)38` }}
-                  >
-                    Call: {site.contact.phone}
-                  </a>
-                  <button className="px-8 py-4 rounded-xl bg-foreground/5 text-foreground font-semibold text-lg hover:bg-foreground/10 transition-all border border-foreground/10 active:scale-[0.98]">
-                    Learn More
-                  </button>
-                </div>
-              </div>
-              <div className="relative aspect-[4/3] md:aspect-square rounded-3xl overflow-hidden shadow-2xl group">
-                 {site.hero.imageUrl ? (
-                    <Image 
-                      src={site.hero.imageUrl} 
-                      alt={site.businessName}
-                      fill
-                      className="object-cover group-hover:scale-105 transition-transform duration-700"
-                      priority
-                    />
-                 ) : (
-                    <div className="absolute inset-0 bg-foreground/5 flex items-center justify-center overflow-hidden">
-                        <div 
-                          className="absolute inset-0 opacity-20"
-                          style={{ backgroundImage: `linear-gradient(to bottom right, var(--primary), transparent)` }}
-                        />
-                        <div className="p-12 text-center z-10">
-                           <div className="w-24 h-24 mx-auto mb-6 rounded-2xl flex items-center justify-center bg-background/10 backdrop-blur-xl border border-foreground/10">
-                              <svg className="w-12 h-12 text-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
-                           </div>
-                           <h3 className="text-3xl font-bold text-foreground mb-2">{site.businessName}</h3>
-                           <p className="text-foreground/60">Serving Our Community with Excellence</p>
-                        </div>
-                    </div>
-                 )}
-              </div>
-            </div>
-          </>
-        )}
+        </div>
       </section>
 
       {/* Features Section */}
