@@ -1,78 +1,36 @@
 {
-  "themeColor": "#388E3C",
+  "themeColor": "#34D399",
   "hero": {
-    "title": "Transform Your Yard with Campos Landscaping Maintenance LLC",
-    "subtitle": "Expert lawn care, landscaping, and maintenance services for a beautiful and healthy outdoor space.",
+    "title": "Transform Your Yard with Campos Landscaping Maintenance",
+    "subtitle": "Reliable and Affordable Landscaping Services for a Beautiful Outdoor Space.",
     "cta": "Get a Free Quote"
   },
   "features": [
     {
       "title": "Lawn Care & Maintenance",
-      "desc": "Keep your lawn healthy and green with our expert mowing, fertilization, aeration, and weed control services."
+      "desc": "Expert mowing, edging, fertilization, and weed control for a lush, green lawn."
     },
     {
-      "title": "Landscaping Design & Installation",
+      "title": "Landscape Design & Installation",
       "desc": "Create the outdoor oasis of your dreams with our custom landscape design and installation services."
     },
     {
-      "title": "Seasonal Clean-Up",
-      "desc": "Prepare your property for the changing seasons with our spring and fall clean-up services, including leaf removal and debris removal."
-    },
-    {
-      "title": "Hardscaping Services",
-      "desc": "Enhance your outdoor living space with patios, walkways, retaining walls, and more."
+      "title": "Spring & Fall Clean-Up",
+      "desc": "Prepare your yard for the changing seasons with our comprehensive clean-up services."
     }
   ],
   "reviews": [
     {
       "author": "John S.",
-      "text": "Campos Landscaping did an amazing job transforming my overgrown yard into a beautiful space. Highly recommend!"
+      "text": "Campos Landscaping has transformed my yard! Their team is professional, reliable, and does excellent work. I highly recommend them!"
     },
     {
       "author": "Maria G.",
-      "text": "Reliable, professional, and reasonably priced. I'm so glad I chose Campos Landscaping for my lawn maintenance needs."
+      "text": "We've been using Campos Landscaping for years, and they consistently provide top-notch service. Our lawn always looks amazing!"
     }
   ],
   "contact": {
     "email": "contact@camposlandscapingmaintenancellc.com",
     "phone": "555-555-1212"
-  },
-  "services": [
-    {
-      "title": "Mowing",
-      "desc": "Professional mowing services to keep your lawn looking its best."
-    },
-    {
-      "title": "Fertilization",
-      "desc": "Customized fertilization programs for a healthy and vibrant lawn."
-    },
-    {
-      "title": "Weed Control",
-      "desc": "Effective weed control solutions to eliminate unwanted growth."
-    },
-    {
-      "title": "Mulching",
-      "desc": "Enhance your landscape with quality mulch to retain moisture and suppress weeds."
-    }
-  ],
-  "images": [
-    {
-      "url": "/images/landscaping1.jpg",
-      "alt": "Beautiful Landscaping Design"
-    },
-    {
-      "url": "/images/lawncare.jpg",
-      "alt": "Healthy Green Lawn"
-    }
-  ],
-  "testimonials": [
-    {
-      "author": "Jane Doe",
-      "text": "Campos Landscaping exceeded my expectations! My yard has never looked better.",
-      "image": "/images/jane.jpg"
-    }
-  ],
-  "footer": {
-    "copyright": "&copy; 2024 Campos Landscaping Maintenance LLC"
   }
 }
