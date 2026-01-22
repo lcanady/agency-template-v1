@@ -1,59 +1,82 @@
 {
-  "businessName": "Summit Roofing & Exteriors",
+  "businessName": "Willamette Pressure Washing LLC",
+  "brandIcon": "💦",
   "themeColor": "#2563eb",
   "palette": {
     "light": {
       "primary": "#2563eb",
-      "secondary": "#3b82f6",
-      "accent": "#60a5fa",
+      "secondary": "#60a5fa",
+      "accent": "#bae6fd",
       "background": "#ffffff",
-      "foreground": "#0f172a"
+      "foreground": "#1e3a8a"
     },
     "dark": {
-      "primary": "#3b82f6",
+      "primary": "#60a5fa",
       "secondary": "#2563eb",
-      "accent": "#1e40af",
-      "background": "#0f172a",
-      "foreground": "#f8fafc"
+      "accent": "#3b82f6",
+      "background": "#1e3a8a",
+      "foreground": "#dbeafe"
     }
   },
+  "contact": {
+    "email": "contact@willamettepressurewashingllc.com",
+    "phone": "(541) 971-2775",
+    "address": "4378 Burlington Loop NE, Salem, OR 97305, USA"
+  },
   "hero": {
-    "headline": "Protecting Your Home With Precision Craftsmanship",
-    "subhead": "The most trusted local roofing experts for over 20 years. Quality materials, expert installation, and a lifetime warranty on all work.",
-    "imageUrl": "https://images.unsplash.com/photo-1632733711679-5292d6863f1c?auto=format&fit=crop&w=1200&q=80",
+    "headline": "Restore Your Home's Shine with Willamette Pressure Washing",
+    "subhead": "Serving Salem, OR, and surrounding areas with top-notch pressure washing services. Get a free quote today!",
+    "imageUrl": "https://picsum.photos/seed/willamette-pressure-washing-llc/1200/720",
     "heroStyle": "full"
   },
   "features": [
     {
-      "title": "Free Inspection",
-      "description": "We offer detailed roof inspections at zero cost to you. Know the state of your roof today.",
-      "icon": "Search"
+      "title": "Residential Pressure Washing",
+      "description": "We clean siding, decks, fences, driveways, and more, removing dirt, algae, and grime.",
+      "imageUrl": "https://images.unsplash.com/photo-1581918531644-5422119521c6?auto=format&fit=crop&w=400&q=80"
     },
     {
-      "title": "24/7 Repairs",
-      "description": "Emergency services available for storm damage and leaks. We're here when you need us.",
-      "icon": "Clock"
+      "title": "Commercial Pressure Washing",
+      "description": "Maintain a professional appearance for your business with our comprehensive cleaning services.",
+      "imageUrl": "https://images.unsplash.com/photo-1652676177120-40f7fd4ae33a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjEzNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxMTU4ODV8&ixlib=rb-4.1.0&q=80&w=1080"
     },
     {
-      "title": "Lifetime Warranty",
-      "description": "We stand behind our work with a comprehensive lifetime warranty on all materials and labor.",
-      "icon": "Shield"
+      "title": "Roof Cleaning",
+      "description": "Safely remove moss and algae from your roof, extending its lifespan and improving curb appeal.",
+      "imageUrl": "https://images.unsplash.com/photo-1747702541566-6005dfa6bd4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjEzNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxMTU4ODZ8&ixlib=rb-4.1.0&q=80&w=1080"
     }
   ],
   "reviews": [
     {
-      "name": "Michael Stevens",
-      "text": "Best roofing experience I've had. They were professional, fast, and left my property cleaner than they found it.",
+      "name": "Sarah M.",
+      "text": "Willamette Pressure Washing did an amazing job on our house! Our siding looks brand new, and the moss is completely gone from the roof. Highly recommend!",
       "rating": 5
     },
     {
-      "name": "Sarah Jenkins",
-      "text": "Fair prices and excellent communication. They explained every step of the process. Highly recommend!",
+      "name": "John B.",
+      "text": "Great service and very professional. They were on time, efficient, and the price was very reasonable. Our driveway is spotless!",
+      "rating": 5
+    },
+    {
+      "name": "Emily K.",
+      "text": "We had our deck pressure washed, and it looks fantastic! Will definitely use them again in the future.",
       "rating": 5
     }
   ],
-  "contact": {
-    "phone": "(555) 123-4567",
-    "email": "hello@summitroofing.com"
+  "gallery": [],
+  "unsplashCredits": {
+    "features": [
+      null,
+      {
+        "photographer": "Ray Graciano",
+        "photographerUrl": "https://unsplash.com/@cortez197_",
+        "downloadUrl": "https://api.unsplash.com/photos/z_UASrUs8E4/download?ixid=M3w4NjEzNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxMTU4ODV8"
+      },
+      {
+        "photographer": "Sheila C",
+        "photographerUrl": "https://unsplash.com/@qld_traveller",
+        "downloadUrl": "https://api.unsplash.com/photos/XlsPoH-7zIU/download?ixid=M3w4NjEzNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxMTU4ODZ8"
+      }
+    ]
   }
 }
