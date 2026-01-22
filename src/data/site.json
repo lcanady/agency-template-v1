@@ -1,59 +1,58 @@
 {
-  "businessName": "Summit Roofing & Exteriors",
-  "themeColor": "#2563eb",
+  "businessName": "Top Tier Plumbing LLC",
+  "themeColor": "#007bff",
   "palette": {
     "light": {
-      "primary": "#2563eb",
-      "secondary": "#3b82f6",
-      "accent": "#60a5fa",
+      "primary": "#007bff",
+      "secondary": "#6c757d",
+      "accent": "#f8f9fa",
       "background": "#ffffff",
-      "foreground": "#0f172a"
+      "foreground": "#212529"
     },
     "dark": {
-      "primary": "#3b82f6",
-      "secondary": "#2563eb",
-      "accent": "#1e40af",
-      "background": "#0f172a",
-      "foreground": "#f8fafc"
+      "primary": "#007bff",
+      "secondary": "#adb5bd",
+      "accent": "#343a40",
+      "background": "#212529",
+      "foreground": "#ffffff"
     }
   },
+  "contact": {
+    "email": "contact@toptierplumbingllc.com",
+    "phone": "555-0123",
+    "address": "Address not available"
+  },
   "hero": {
-    "headline": "Protecting Your Home With Precision Craftsmanship",
-    "subhead": "The most trusted local roofing experts for over 20 years. Quality materials, expert installation, and a lifetime warranty on all work.",
-    "imageUrl": "https://images.unsplash.com/photo-1632733711679-5292d6863f1c?auto=format&fit=crop&w=1200&q=80",
+    "headline": "Reliable Plumbing Services, Top-Tier Quality",
+    "subhead": "Your trusted partner for all plumbing needs, from leaky faucets to complex installations. Serving our community with integrity and expertise.",
+    "imageUrl": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1200&q=80",
     "heroStyle": "full"
   },
   "features": [
     {
-      "title": "Free Inspection",
-      "description": "We offer detailed roof inspections at zero cost to you. Know the state of your roof today.",
-      "icon": "Search"
+      "title": "24/7 Emergency Service",
+      "description": "Plumbing emergencies don't wait for business hours. We offer round-the-clock service to address urgent issues quickly and efficiently."
     },
     {
-      "title": "24/7 Repairs",
-      "description": "Emergency services available for storm damage and leaks. We're here when you need us.",
-      "icon": "Clock"
+      "title": "Expert Leak Detection",
+      "description": "Our advanced leak detection technology helps us pinpoint hidden leaks, preventing costly water damage and conserving water."
     },
     {
-      "title": "Lifetime Warranty",
-      "description": "We stand behind our work with a comprehensive lifetime warranty on all materials and labor.",
-      "icon": "Shield"
+      "title": "Water Heater Services",
+      "description": "From installation and repair to maintenance and replacement, we handle all aspects of water heater service with professionalism and expertise."
     }
   ],
   "reviews": [
     {
-      "name": "Michael Stevens",
-      "text": "Best roofing experience I've had. They were professional, fast, and left my property cleaner than they found it.",
+      "name": "John S.",
+      "text": "Top Tier Plumbing responded quickly to our emergency call and fixed the burst pipe with minimal disruption. Highly recommended!",
       "rating": 5
     },
     {
-      "name": "Sarah Jenkins",
-      "text": "Fair prices and excellent communication. They explained every step of the process. Highly recommend!",
+      "name": "Jane D.",
+      "text": "We hired Top Tier Plumbing to install a new water heater, and they did an excellent job. Professional, efficient, and fairly priced.",
       "rating": 5
     }
   ],
-  "contact": {
-    "phone": "(555) 123-4567",
-    "email": "hello@summitroofing.com"
-  }
+  "gallery": []
 }
