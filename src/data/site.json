@@ -1,41 +1,79 @@
 {
-  "businessName": "Summit Roofing & Exteriors",
-  "themeColor": "#2563eb",
+  "businessName": "EMDF Roofing, LLC",
+  "themeColor": "#2d3748",
   "hero": {
-    "headline": "Protecting Your Home With Precision Craftsmanship",
-    "subhead": "The most trusted local roofing experts for over 20 years. Quality materials, expert installation, and a lifetime warranty on all work."
+    "headline": "Protecting Homes, Building Trust.",
+    "subhead": "Top-Rated Roofing Services in [Your Service Area]. Expert Installation, Reliable Repairs, and Comprehensive Inspections."
   },
   "features": [
     {
-      "title": "Free Inspection",
-      "description": "We offer detailed roof inspections at zero cost to you. Know the state of your roof today.",
-      "icon": "Search"
+      "title": "Expert Installation",
+      "description": "Our certified professionals ensure precise and durable roofing installations, using only premium materials.",
+      "icon": "construction"
     },
     {
-      "title": "24/7 Repairs",
-      "description": "Emergency services available for storm damage and leaks. We're here when you need us.",
-      "icon": "Clock"
+      "title": "Reliable Repairs",
+      "description": "From minor leaks to storm damage, we provide prompt and effective roofing repairs to safeguard your home.",
+      "icon": "wrench"
     },
     {
-      "title": "Lifetime Warranty",
-      "description": "We stand behind our work with a comprehensive lifetime warranty on all materials and labor.",
-      "icon": "Shield"
+      "title": "Free Inspections",
+      "description": "Comprehensive roofing inspections to identify potential issues and provide accurate, transparent assessments.",
+      "icon": "search"
+    },
+    {
+      "title": "Quality Materials",
+      "description": "We partner with leading manufacturers to offer a wide selection of roofing materials, ensuring lasting protection and curb appeal.",
+      "icon": "box"
+    },
+    {
+      "title": "Warranty Protection",
+      "description": "Enjoy peace of mind with our robust warranty options, covering both materials and workmanship.",
+      "icon": "shield-check"
+    },
+    {
+      "title": "Emergency Services",
+      "description": "We're available 24/7 for emergency roofing repairs, providing rapid response when you need it most.",
+      "icon": "alert-circle"
     }
   ],
   "reviews": [
     {
-      "name": "Michael Stevens",
-      "text": "Best roofing experience I've had. They were professional, fast, and left my property cleaner than they found it.",
+      "name": "John S.",
+      "text": "EMDF Roofing did an excellent job replacing my roof. They were professional, efficient, and the quality of their work is outstanding. Highly recommended!",
       "rating": 5
     },
     {
-      "name": "Sarah Jenkins",
-      "text": "Fair prices and excellent communication. They explained every step of the process. Highly recommend!",
+      "name": "Jane D.",
+      "text": "I had a leak in my roof, and EMDF Roofing came out quickly and fixed it perfectly. They were honest, reliable, and very reasonably priced.",
+      "rating": 5
+    },
+    {
+      "name": "Robert M.",
+      "text": "From start to finish, EMDF Roofing provided exceptional service. They helped me choose the right roofing material and completed the installation on time and within budget.",
       "rating": 5
     }
   ],
   "contact": {
-    "phone": "(555) 123-4567",
-    "email": "hello@summitroofing.com"
-  }
+    "email": "contact@emdfroofingllc.com",
+    "phone": "555-555-5555"
+  },
+  "sections": [
+    {
+      "type": "imageGallery",
+      "title": "Our Recent Projects",
+      "images": [
+        "image1.jpg",
+        "image2.jpg",
+        "image3.jpg"
+      ]
+    },
+    {
+      "type": "callToAction",
+      "title": "Get a Free Quote Today!",
+      "description": "Contact us now for a no-obligation estimate and let us help you protect your home.",
+      "buttonText": "Request a Quote",
+      "buttonLink": "/quote"
+    }
+  ]
 }
