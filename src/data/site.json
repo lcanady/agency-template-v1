@@ -1,59 +1,58 @@
 {
-  "businessName": "Summit Roofing & Exteriors",
-  "themeColor": "#2563eb",
+  "businessName": "Russell's Landscape Services Inc",
+  "themeColor": "#22c55e",
   "palette": {
     "light": {
-      "primary": "#2563eb",
-      "secondary": "#3b82f6",
-      "accent": "#60a5fa",
-      "background": "#ffffff",
-      "foreground": "#0f172a"
+      "primary": "#22c55e",
+      "secondary": "#5eead4",
+      "accent": "#a7f3d0",
+      "background": "#f9fafb",
+      "foreground": "#065f46"
     },
     "dark": {
-      "primary": "#3b82f6",
-      "secondary": "#2563eb",
-      "accent": "#1e40af",
-      "background": "#0f172a",
-      "foreground": "#f8fafc"
+      "primary": "#22c55e",
+      "secondary": "#16a34a",
+      "accent": "#047857",
+      "background": "#065f46",
+      "foreground": "#ecfdf5"
     }
   },
+  "contact": {
+    "email": "contact@russellslandscapeservicesinc.com",
+    "phone": "(503) 363-9835",
+    "address": "3901 Timbet Dr SE, Salem, OR 97317, USA"
+  },
   "hero": {
-    "headline": "Protecting Your Home With Precision Craftsmanship",
-    "subhead": "The most trusted local roofing experts for over 20 years. Quality materials, expert installation, and a lifetime warranty on all work.",
-    "imageUrl": "https://images.unsplash.com/photo-1632733711679-5292d6863f1c?auto=format&fit=crop&w=1200&q=80",
+    "headline": "Transform Your Outdoor Space with Expert Landscaping",
+    "subhead": "Creating beautiful and functional landscapes in Salem, OR, and surrounding areas.",
+    "imageUrl": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1200&q=80",
     "heroStyle": "full"
   },
   "features": [
     {
-      "title": "Free Inspection",
-      "description": "We offer detailed roof inspections at zero cost to you. Know the state of your roof today.",
-      "icon": "Search"
+      "title": "Lawn Care & Maintenance",
+      "description": "Keep your lawn healthy and vibrant with our comprehensive lawn care services. We offer mowing, fertilization, aeration, and more."
     },
     {
-      "title": "24/7 Repairs",
-      "description": "Emergency services available for storm damage and leaks. We're here when you need us.",
-      "icon": "Clock"
+      "title": "Landscape Design & Installation",
+      "description": "Transform your property with a custom landscape design tailored to your needs and preferences. We handle everything from concept to completion."
     },
     {
-      "title": "Lifetime Warranty",
-      "description": "We stand behind our work with a comprehensive lifetime warranty on all materials and labor.",
-      "icon": "Shield"
+      "title": "Hardscaping Services",
+      "description": "Enhance your outdoor living space with beautiful and durable hardscaping features. We specialize in patios, walkways, retaining walls, and more."
     }
   ],
   "reviews": [
     {
-      "name": "Michael Stevens",
-      "text": "Best roofing experience I've had. They were professional, fast, and left my property cleaner than they found it.",
+      "name": "Sarah M.",
+      "text": "Russell's Landscape Services Inc. did an amazing job on our backyard! They were professional, efficient, and the results exceeded our expectations.",
       "rating": 5
     },
     {
-      "name": "Sarah Jenkins",
-      "text": "Fair prices and excellent communication. They explained every step of the process. Highly recommend!",
+      "name": "John B.",
+      "text": "We've been using Russell's for our lawn care for years, and we couldn't be happier. Our lawn always looks fantastic!",
       "rating": 5
     }
   ],
-  "contact": {
-    "phone": "(555) 123-4567",
-    "email": "hello@summitroofing.com"
-  }
+  "gallery": []
 }
