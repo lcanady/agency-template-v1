@@ -1,59 +1,82 @@
 {
-  "businessName": "Summit Roofing & Exteriors",
-  "themeColor": "#2563eb",
+  "businessName": "Curb Appeal Specialist",
+  "brandIcon": "🏡",
+  "themeColor": "#4CAF50",
   "palette": {
     "light": {
-      "primary": "#2563eb",
-      "secondary": "#3b82f6",
-      "accent": "#60a5fa",
-      "background": "#ffffff",
-      "foreground": "#0f172a"
+      "primary": "#4CAF50",
+      "secondary": "#8BC34A",
+      "accent": "#DCEDC8",
+      "background": "#FFFFFF",
+      "foreground": "#212121"
     },
     "dark": {
-      "primary": "#3b82f6",
-      "secondary": "#2563eb",
-      "accent": "#1e40af",
-      "background": "#0f172a",
-      "foreground": "#f8fafc"
+      "primary": "#4CAF50",
+      "secondary": "#689F38",
+      "accent": "#A5D6A7",
+      "background": "#303030",
+      "foreground": "#FAFAFA"
     }
   },
+  "contact": {
+    "email": "contact@curbappealspecialist.com",
+    "phone": "(971) 865-6583",
+    "address": "581 Lancaster Dr SE #293, Salem, OR 97317, USA"
+  },
   "hero": {
-    "headline": "Protecting Your Home With Precision Craftsmanship",
-    "subhead": "The most trusted local roofing experts for over 20 years. Quality materials, expert installation, and a lifetime warranty on all work.",
-    "imageUrl": "https://images.unsplash.com/photo-1632733711679-5292d6863f1c?auto=format&fit=crop&w=1200&q=80",
+    "headline": "Transform Your Home's First Impression",
+    "subhead": "Expert curb appeal services in Salem, OR, to boost your property value and create a welcoming atmosphere.",
+    "imageUrl": "https://picsum.photos/seed/curb-appeal-specialist-hero/1200/720",
     "heroStyle": "full"
   },
   "features": [
     {
-      "title": "Free Inspection",
-      "description": "We offer detailed roof inspections at zero cost to you. Know the state of your roof today.",
-      "icon": "Search"
+      "title": "Professional Pressure Washing",
+      "description": "Remove dirt, grime, and algae from your siding, driveway, and walkways for a spotless clean.",
+      "imageUrl": "https://images.unsplash.com/photo-1650229061125-6b43d72fb730?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjEzNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxMjA3OTJ8&ixlib=rb-4.1.0&q=80&w=1080"
     },
     {
-      "title": "24/7 Repairs",
-      "description": "Emergency services available for storm damage and leaks. We're here when you need us.",
-      "icon": "Clock"
+      "title": "Expert Gutter Cleaning",
+      "description": "Protect your home from water damage with our thorough gutter cleaning services, preventing clogs and ensuring proper drainage.",
+      "imageUrl": "https://picsum.photos/seed/curb-appeal-specialist-expert-gutter-cleaning/800/600"
     },
     {
-      "title": "Lifetime Warranty",
-      "description": "We stand behind our work with a comprehensive lifetime warranty on all materials and labor.",
-      "icon": "Shield"
+      "title": "Exterior Painting & Refreshing",
+      "description": "Enhance your home's appearance with our professional painting services, revitalizing your exterior and increasing curb appeal.",
+      "imageUrl": "https://images.unsplash.com/photo-1603993072781-98c0d4a94a1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjEzNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxMjA3OTR8&ixlib=rb-4.1.0&q=80&w=1080"
     }
   ],
   "reviews": [
     {
-      "name": "Michael Stevens",
-      "text": "Best roofing experience I've had. They were professional, fast, and left my property cleaner than they found it.",
+      "name": "Sarah M.",
+      "text": "Curb Appeal Specialist did an amazing job pressure washing our home! It looks brand new. Highly recommended!",
       "rating": 5
     },
     {
-      "name": "Sarah Jenkins",
-      "text": "Fair prices and excellent communication. They explained every step of the process. Highly recommend!",
+      "name": "John B.",
+      "text": "Our gutters were completely clogged, and they cleaned them quickly and efficiently. Great service and reasonable prices!",
+      "rating": 5
+    },
+    {
+      "name": "Emily K.",
+      "text": "After the pressure washing and a fresh coat of paint, our house looks amazing! Thank you Curb Appeal Specialist!",
       "rating": 5
     }
   ],
-  "contact": {
-    "phone": "(555) 123-4567",
-    "email": "hello@summitroofing.com"
+  "gallery": [],
+  "unsplashCredits": {
+    "features": [
+      {
+        "photographer": "Reto Furrer",
+        "photographerUrl": "https://unsplash.com/@rf999",
+        "downloadUrl": "https://api.unsplash.com/photos/q9NtopErDd4/download?ixid=M3w4NjEzNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxMjA3OTJ8"
+      },
+      null,
+      {
+        "photographer": "Solen Feyissa",
+        "photographerUrl": "https://unsplash.com/@solenfeyissa",
+        "downloadUrl": "https://api.unsplash.com/photos/iPNONwP5LBM/download?ixid=M3w4NjEzNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxMjA3OTR8"
+      }
+    ]
   }
 }
