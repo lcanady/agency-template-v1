@@ -195,14 +195,10 @@ export default function Home() {
       {site.gallery && site.gallery.length > 0 && (
         <section className="py-24 bg-background">
           <div className="max-w-7xl mx-auto px-6">
-            <div className="mb-16 text-center">
-              <h2 className="text-4xl font-bold text-foreground mb-4">Our Work</h2>
-              <p className="text-lg text-foreground/60">Professional results for our valued clients.</p>
-            </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {site.gallery.map((img, i) => (
                 <div key={i} className="relative aspect-video rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 group">
-                  <Image src={img} alt={`Work detail ${i + 1}`} fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
+                  <Image src={img} alt={`${site.businessName} detail ${i + 1}`} fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                   <div className="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors duration-500" />
                 </div>
               ))}
