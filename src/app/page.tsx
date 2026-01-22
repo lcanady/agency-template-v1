@@ -277,6 +277,32 @@ export default function Home() {
           </div>
         </div>
       </footer>
+      {/* Mobile Sticky CTA */}
+      <div className="md:hidden fixed bottom-6 left-6 right-6 z-[60]">
+        <div className="bg-background/80 backdrop-blur-2xl border border-foreground/10 p-3 rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.3)] flex gap-3">
+          <a 
+            href={`tel:${site.contact.phone}`}
+            className="flex-1 h-16 rounded-xl flex items-center justify-center font-bold text-white shadow-lg active:scale-95 transition-all bg-primary"
+            style={{ boxShadow: `0 10px 20px -5px var(--primary)66` }}
+          >
+            <div className="flex flex-col items-center">
+              <span className="text-[10px] uppercase opacity-60 font-black tracking-widest leading-none mb-1">Call Now</span>
+              <span className="text-lg leading-none">{site.contact.phone}</span>
+            </div>
+          </a>
+          {site.contact.email && (
+            <a 
+              href={`mailto:${site.contact.email}`}
+              className="w-16 h-16 rounded-xl bg-foreground/5 border border-foreground/10 flex items-center justify-center text-foreground active:scale-95 transition-all"
+            >
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+            </a>
+          )}
+        </div>
+      </div>
+
+       {/* Add spacing to footer so it doesn't get covered by the CTA */}
+       <div className="h-32 md:hidden" />
     </main>
   );
 }

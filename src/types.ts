@@ -8,6 +8,7 @@ export interface ColorPalette {
 
 export interface SiteConfig {
   businessName: string;
+  brandIcon?: string;
   themeColor: string;
   palette: {
     light: ColorPalette;
