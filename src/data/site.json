@@ -1,59 +1,61 @@
 {
-  "businessName": "Summit Roofing & Exteriors",
-  "themeColor": "#2563eb",
+  "businessName": "Peterson Roofing Services",
+  "themeColor": "#2c698d",
   "palette": {
     "light": {
-      "primary": "#2563eb",
-      "secondary": "#3b82f6",
-      "accent": "#60a5fa",
+      "primary": "#2c698d",
+      "secondary": "#63a4bb",
+      "accent": "#90caf9",
       "background": "#ffffff",
-      "foreground": "#0f172a"
+      "foreground": "#263238"
     },
     "dark": {
-      "primary": "#3b82f6",
-      "secondary": "#2563eb",
-      "accent": "#1e40af",
-      "background": "#0f172a",
-      "foreground": "#f8fafc"
+      "primary": "#63a4bb",
+      "secondary": "#2c698d",
+      "accent": "#90caf9",
+      "background": "#263238",
+      "foreground": "#eceff1"
     }
   },
+  "contact": {
+    "email": "contact@petersonroofingservices.com",
+    "phone": "555-0123",
+    "address": "Address not available"
+  },
   "hero": {
-    "headline": "Protecting Your Home With Precision Craftsmanship",
-    "subhead": "The most trusted local roofing experts for over 20 years. Quality materials, expert installation, and a lifetime warranty on all work.",
-    "imageUrl": "https://images.unsplash.com/photo-1632733711679-5292d6863f1c?auto=format&fit=crop&w=1200&q=80",
+    "headline": "Protecting Your Home, One Roof at a Time",
+    "subhead": "Expert Roofing Services You Can Trust. Serving [Your Area] and Surrounding Communities.",
+    "imageUrl": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1200&q=80",
     "heroStyle": "full"
   },
   "features": [
     {
-      "title": "Free Inspection",
-      "description": "We offer detailed roof inspections at zero cost to you. Know the state of your roof today.",
-      "icon": "Search"
+      "title": "Expert Installation",
+      "description": "Professional roofing installation ensuring long-lasting protection and durability.",
+      "imageUrl": null
     },
     {
-      "title": "24/7 Repairs",
-      "description": "Emergency services available for storm damage and leaks. We're here when you need us.",
-      "icon": "Clock"
+      "title": "Reliable Repairs",
+      "description": "Prompt and efficient roofing repair services to address leaks, damage, and wear.",
+      "imageUrl": null
     },
     {
-      "title": "Lifetime Warranty",
-      "description": "We stand behind our work with a comprehensive lifetime warranty on all materials and labor.",
-      "icon": "Shield"
+      "title": "Quality Materials",
+      "description": "Using only top-grade roofing materials from trusted manufacturers.",
+      "imageUrl": null
     }
   ],
   "reviews": [
     {
-      "name": "Michael Stevens",
-      "text": "Best roofing experience I've had. They were professional, fast, and left my property cleaner than they found it.",
+      "name": "John S.",
+      "text": "Peterson Roofing Services did an excellent job replacing my roof. The crew was professional and efficient, and the price was very reasonable.",
       "rating": 5
     },
     {
-      "name": "Sarah Jenkins",
-      "text": "Fair prices and excellent communication. They explained every step of the process. Highly recommend!",
+      "name": "Jane D.",
+      "text": "I had a leak in my roof, and Peterson Roofing Services was able to fix it quickly and effectively. I highly recommend them!",
       "rating": 5
     }
   ],
-  "contact": {
-    "phone": "(555) 123-4567",
-    "email": "hello@summitroofing.com"
-  }
+  "gallery": []
 }
