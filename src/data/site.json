@@ -1,36 +1,45 @@
 {
-  "themeColor": "#34D399",
+  "businessName": "Campos Landscaping Maintenance LLC",
+  "themeColor": "#388E3C",
   "hero": {
-    "title": "Transform Your Yard with Campos Landscaping Maintenance",
-    "subtitle": "Reliable and Affordable Landscaping Services for a Beautiful Outdoor Space.",
-    "cta": "Get a Free Quote"
+    "headline": "Transform Your Outdoor Space with Campos Landscaping",
+    "subhead": "Professional landscaping maintenance services tailored to your needs."
   },
   "features": [
     {
-      "title": "Lawn Care & Maintenance",
-      "desc": "Expert mowing, edging, fertilization, and weed control for a lush, green lawn."
+      "title": "Lawn Care Experts",
+      "description": "From mowing and fertilization to weed control, we'll keep your lawn healthy and vibrant.",
+      "icon": "leaf"
     },
     {
-      "title": "Landscape Design & Installation",
-      "desc": "Create the outdoor oasis of your dreams with our custom landscape design and installation services."
+      "title": "Garden Maintenance",
+      "description": "We offer comprehensive garden care services, including planting, pruning, and pest control.",
+      "icon": "flower"
     },
     {
-      "title": "Spring & Fall Clean-Up",
-      "desc": "Prepare your yard for the changing seasons with our comprehensive clean-up services."
+      "title": "Seasonal Clean-Up",
+      "description": "Prepare your landscape for any season with our spring and fall clean-up services.",
+      "icon": "broom"
     }
   ],
   "reviews": [
     {
-      "author": "John S.",
-      "text": "Campos Landscaping has transformed my yard! Their team is professional, reliable, and does excellent work. I highly recommend them!"
+      "name": "John S.",
+      "text": "Campos Landscaping has transformed my yard! They are reliable, professional, and do excellent work.",
+      "rating": 5
     },
     {
-      "author": "Maria G.",
-      "text": "We've been using Campos Landscaping for years, and they consistently provide top-notch service. Our lawn always looks amazing!"
+      "name": "Maria L.",
+      "text": "I highly recommend Campos Landscaping for their attention to detail and commitment to customer satisfaction.",
+      "rating": 5
     }
   ],
   "contact": {
     "email": "contact@camposlandscapingmaintenancellc.com",
-    "phone": "555-555-1212"
+    "phone": "555-0123"
+  },
+  "callToAction": {
+    "text": "Get a Free Quote",
+    "link": "/quote"
   }
 }
