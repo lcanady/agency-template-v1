@@ -51,32 +51,42 @@ export default function Home() {
               {site.hero.subhead}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <button 
-                className="px-8 py-4 rounded-xl text-white font-semibold text-lg hover:brightness-110 transition-all shadow-xl active:scale-[0.98]"
+              <a 
+                href={`tel:${site.contact.phone}`}
+                className="px-8 py-4 rounded-xl text-white font-semibold text-lg hover:brightness-110 transition-all shadow-xl active:scale-[0.98] text-center"
                 style={{ backgroundColor: themeColor, boxShadow: `0 20px 25px -5px ${themeColor}38` }}
               >
-                Get a Free Quote
-              </button>
+                Call: {site.contact.phone}
+              </a>
               <button className="px-8 py-4 rounded-xl bg-gray-50 text-gray-900 font-semibold text-lg hover:bg-gray-100 transition-all border border-gray-200 active:scale-[0.98]">
                 Learn More
               </button>
             </div>
           </div>
-          <div className="relative aspect-square rounded-3xl overflow-hidden shadow-2xl group">
-             {/* Dynamic color overlay grid */}
-             <div className="absolute inset-0 bg-gray-800 flex items-center justify-center overflow-hidden">
-                <div 
-                  className="absolute inset-0 opacity-20"
-                  style={{ backgroundImage: `linear-gradient(to bottom right, ${themeColor}, transparent)` }}
+          <div className="relative aspect-[4/3] md:aspect-square rounded-3xl overflow-hidden shadow-2xl group">
+             {site.hero.imageUrl ? (
+                <Image 
+                  src={site.hero.imageUrl} 
+                  alt={site.businessName}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-700"
+                  priority
                 />
-                <div className="p-12 text-center z-10">
-                   <div className="w-24 h-24 mx-auto mb-6 rounded-2xl flex items-center justify-center bg-white/10 backdrop-blur-xl border border-white/20">
-                      <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
-                   </div>
-                   <h3 className="text-3xl font-bold text-white mb-2">{site.businessName}</h3>
-                   <p className="text-white/60">Serving Our Community with Excellence</p>
+             ) : (
+                <div className="absolute inset-0 bg-gray-800 flex items-center justify-center overflow-hidden">
+                    <div 
+                      className="absolute inset-0 opacity-20"
+                      style={{ backgroundImage: `linear-gradient(to bottom right, ${themeColor}, transparent)` }}
+                    />
+                    <div className="p-12 text-center z-10">
+                       <div className="w-24 h-24 mx-auto mb-6 rounded-2xl flex items-center justify-center bg-white/10 backdrop-blur-xl border border-white/20">
+                          <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+                       </div>
+                       <h3 className="text-3xl font-bold text-white mb-2">{site.businessName}</h3>
+                       <p className="text-white/60">Serving Our Community with Excellence</p>
+                    </div>
                 </div>
-             </div>
+             )}
           </div>
         </div>
       </section>
@@ -92,13 +102,16 @@ export default function Home() {
             {site.features.map((feature, idx) => (
               <div key={idx} className="bg-white p-10 rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl transition-all hover:-translate-y-1 group">
                 <div 
-                  className="w-16 h-16 rounded-2xl flex items-center justify-center mb-8 bg-opacity-10 group-hover:scale-110 transition-transform"
+                  className="w-16 h-16 rounded-2xl flex items-center justify-center mb-8 bg-opacity-10 group-hover:scale-110 transition-transform overflow-hidden font-bold"
                   style={{ backgroundColor: `${themeColor}15` }}
                 >
-                  <div className="w-8 h-8" style={{ color: themeColor }}>
-                    {/* Placeholder for Dynamic Icons */}
-                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-                  </div>
+                  {feature.imageUrl ? (
+                    <Image src={feature.imageUrl} alt={feature.title} width={64} height={64} className="object-cover" />
+                  ) : (
+                    <div className="w-8 h-8" style={{ color: themeColor }}>
+                      <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                    </div>
+                  )}
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">{feature.title}</h3>
                 <p className="text-gray-600 leading-relaxed">{feature.description}</p>
@@ -107,6 +120,26 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Gallery Section */}
+      {site.gallery && site.gallery.length > 0 && (
+        <section className="py-24 bg-white">
+          <div className="max-w-7xl mx-auto px-6">
+            <div className="mb-16 text-center">
+              <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Work</h2>
+              <p className="text-lg text-gray-600">Professional results for our valued clients.</p>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {site.gallery.map((img, i) => (
+                <div key={i} className="relative aspect-video rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 group">
+                  <Image src={img} alt={`Work detail ${i + 1}`} fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
+                  <div className="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors duration-500" />
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Reviews Section */}
       <section id="reviews" className="py-24">
@@ -164,7 +197,10 @@ export default function Home() {
             </a>
           </div>
           <div className="mt-24 pt-10 border-t border-gray-100 flex flex-col md:flex-row items-center justify-between gap-6 text-sm text-gray-500">
-            <div>© {new Date().getFullYear()} {site.businessName}. All rights reserved.</div>
+            <div className="text-left">
+              <div>© {new Date().getFullYear()} {site.businessName}. All rights reserved.</div>
+              {site.contact.address && <div className="mt-1 opacity-75">{site.contact.address}</div>}
+            </div>
             <div className="flex gap-8">
               <a href="#" className="hover:text-gray-900 transition-colors">Privacy Policy</a>
               <a href="#" className="hover:text-gray-900 transition-colors">Terms of Service</a>
