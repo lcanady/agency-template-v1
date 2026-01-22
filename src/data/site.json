@@ -1,41 +1,63 @@
 {
-  "businessName": "Summit Roofing & Exteriors",
+  "businessName": "Breezy HVAC and Construction",
   "themeColor": "#2563eb",
   "hero": {
-    "headline": "Protecting Your Home With Precision Craftsmanship",
-    "subhead": "The most trusted local roofing experts for over 20 years. Quality materials, expert installation, and a lifetime warranty on all work."
+    "headline": "Reliable HVAC & Construction Solutions",
+    "subhead": "Keeping Your Home Comfortable and Well-Built, All Year Round."
   },
   "features": [
     {
-      "title": "Free Inspection",
-      "description": "We offer detailed roof inspections at zero cost to you. Know the state of your roof today.",
-      "icon": "Search"
+      "title": "Expert HVAC Services",
+      "description": "From routine maintenance to emergency repairs, our certified technicians ensure your HVAC system runs efficiently.",
+      "icon": "air"
     },
     {
-      "title": "24/7 Repairs",
-      "description": "Emergency services available for storm damage and leaks. We're here when you need us.",
-      "icon": "Clock"
+      "title": "Quality Construction",
+      "description": "We deliver exceptional craftsmanship and attention to detail in every construction project, big or small.",
+      "icon": "hammer"
     },
     {
-      "title": "Lifetime Warranty",
-      "description": "We stand behind our work with a comprehensive lifetime warranty on all materials and labor.",
-      "icon": "Shield"
+      "title": "Energy Efficiency",
+      "description": "Save money and reduce your carbon footprint with our energy-efficient HVAC and construction solutions.",
+      "icon": "leaf"
+    },
+    {
+      "title": "24/7 Emergency Service",
+      "description": "We're available around the clock to handle any HVAC or construction emergency.",
+      "icon": "phone"
     }
   ],
   "reviews": [
     {
-      "name": "Michael Stevens",
-      "text": "Best roofing experience I've had. They were professional, fast, and left my property cleaner than they found it.",
+      "name": "John S.",
+      "text": "Breezy HVAC saved the day when my AC went out in the middle of summer. Fast, professional, and reasonably priced!",
       "rating": 5
     },
     {
-      "name": "Sarah Jenkins",
-      "text": "Fair prices and excellent communication. They explained every step of the process. Highly recommend!",
+      "name": "Emily R.",
+      "text": "We hired Breezy Construction for a kitchen remodel, and we couldn't be happier with the results. Highly recommend!",
+      "rating": 5
+    },
+    {
+      "name": "David L.",
+      "text": "Excellent service and knowledgeable technicians. Breezy HVAC is now my go-to for all my heating and cooling needs.",
       "rating": 5
     }
   ],
   "contact": {
-    "phone": "(555) 123-4567",
-    "email": "hello@summitroofing.com"
+    "email": "contact@breezyhvacandconstruction.com",
+    "phone": "555-555-1212"
+  },
+  "callToAction": {
+    "buttonText": "Get a Free Quote",
+    "link": "/quote"
+  },
+  "footer": {
+    "copyright": "© 2024 Breezy HVAC and Construction. All rights reserved.",
+    "socialLinks": {
+      "facebook": "#",
+      "twitter": "#",
+      "instagram": "#"
+    }
   }
 }
