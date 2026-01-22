@@ -1,41 +1,19 @@
 {
-  "businessName": "Summit Roofing & Exteriors",
-  "themeColor": "#2563eb",
-  "hero": {
-    "headline": "Protecting Your Home With Precision Craftsmanship",
-    "subhead": "The most trusted local roofing experts for over 20 years. Quality materials, expert installation, and a lifetime warranty on all work."
-  },
-  "features": [
-    {
-      "title": "Free Inspection",
-      "description": "We offer detailed roof inspections at zero cost to you. Know the state of your roof today.",
-      "icon": "Search"
-    },
-    {
-      "title": "24/7 Repairs",
-      "description": "Emergency services available for storm damage and leaks. We're here when you need us.",
-      "icon": "Clock"
-    },
-    {
-      "title": "Lifetime Warranty",
-      "description": "We stand behind our work with a comprehensive lifetime warranty on all materials and labor.",
-      "icon": "Shield"
-    }
-  ],
-  "reviews": [
-    {
-      "name": "Michael Stevens",
-      "text": "Best roofing experience I've had. They were professional, fast, and left my property cleaner than they found it.",
-      "rating": 5
-    },
-    {
-      "name": "Sarah Jenkins",
-      "text": "Fair prices and excellent communication. They explained every step of the process. Highly recommend!",
-      "rating": 5
-    }
-  ],
+  "businessName": "Top Tier Plumbing LLC",
+  "themeColor": "#007bff",
   "contact": {
-    "phone": "(555) 123-4567",
-    "email": "hello@summitroofing.com"
-  }
+    "email": "contact@toptierplumbingllc.com",
+    "phone": "555-0123",
+    "address": "Address not available"
+  },
+  "hero": {
+    "headline": "Fast, Reliable Plumbing Solutions You Can Trust",
+    "subhead": "Expert plumbers serving your area with 24/7 emergency service and guaranteed satisfaction.",
+    "imageUrl": "https://images.unsplash.com/photo-1622543735540-5f156ff339a7?auto=format&fit=crop&w=1200&q=80"
+  },
+  "gallery": [
+    "https://images.unsplash.com/photo-1562827796-a53d0c90910b?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1616573426093-c737a9194ff4?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1558036117-411945306a60?auto=format&fit=crop&w=800&q=80"
+  ]
 }
