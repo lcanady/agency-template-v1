@@ -1,59 +1,91 @@
 {
-  "businessName": "Summit Roofing & Exteriors",
+  "businessName": "Coolsys Refrigeration & HVAC",
+  "brandIcon": "❄️",
   "themeColor": "#2563eb",
   "palette": {
     "light": {
       "primary": "#2563eb",
-      "secondary": "#3b82f6",
-      "accent": "#60a5fa",
-      "background": "#ffffff",
-      "foreground": "#0f172a"
+      "secondary": "#60a5fa",
+      "accent": "#bfdbfe",
+      "background": "#f9fafb",
+      "foreground": "#1e3a8a"
     },
     "dark": {
-      "primary": "#3b82f6",
-      "secondary": "#2563eb",
-      "accent": "#1e40af",
-      "background": "#0f172a",
-      "foreground": "#f8fafc"
+      "primary": "#2563eb",
+      "secondary": "#3b82f6",
+      "accent": "#60a5fa",
+      "background": "#1e3a8a",
+      "foreground": "#e0e7ff"
     }
   },
+  "contact": {
+    "email": "contact@coolsysrefrigerationhvac.com",
+    "phone": "(503) 363-1012",
+    "address": "1745 25th St SE, Salem, OR 97302, USA"
+  },
   "hero": {
-    "headline": "Protecting Your Home With Precision Craftsmanship",
-    "subhead": "The most trusted local roofing experts for over 20 years. Quality materials, expert installation, and a lifetime warranty on all work.",
-    "imageUrl": "https://images.unsplash.com/photo-1632733711679-5292d6863f1c?auto=format&fit=crop&w=1200&q=80",
+    "headline": "Keep Your Cool with Coolsys: Expert HVAC Solutions",
+    "subhead": "Reliable refrigeration and HVAC services in Salem, OR, and beyond. Installation, maintenance, and repair for residential and commercial clients.",
+    "imageUrl": "https://images.unsplash.com/photo-1614447413576-b346c641c128?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjEzNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxMjIwNjl8&ixlib=rb-4.1.0&q=80&w=1080",
     "heroStyle": "full"
   },
   "features": [
     {
-      "title": "Free Inspection",
-      "description": "We offer detailed roof inspections at zero cost to you. Know the state of your roof today.",
-      "icon": "Search"
+      "title": "24/7 Emergency Service",
+      "description": "Unexpected HVAC issues? We're available around the clock to provide prompt and reliable emergency repair services.",
+      "imageUrl": "https://images.unsplash.com/photo-1735670143638-0f2dd5f84fc3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjEzNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxMjIwNzB8&ixlib=rb-4.1.0&q=80&w=1080"
     },
     {
-      "title": "24/7 Repairs",
-      "description": "Emergency services available for storm damage and leaks. We're here when you need us.",
-      "icon": "Clock"
+      "title": "Energy-Efficient Upgrades",
+      "description": "Reduce your energy bills and carbon footprint with our energy-efficient HVAC system upgrades. We can assess your needs and recommend the best solutions.",
+      "imageUrl": "https://images.unsplash.com/photo-1579191427678-eeeb40bcc236?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjEzNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxMjIwNzF8&ixlib=rb-4.1.0&q=80&w=1080"
     },
     {
-      "title": "Lifetime Warranty",
-      "description": "We stand behind our work with a comprehensive lifetime warranty on all materials and labor.",
-      "icon": "Shield"
+      "title": "Preventative Maintenance Plans",
+      "description": "Extend the lifespan of your HVAC equipment and prevent costly breakdowns with our comprehensive preventative maintenance plans. Tailored to your specific needs.",
+      "imageUrl": "https://images.unsplash.com/photo-1661348540993-9b1a4fcb4ad5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjEzNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxMjIwNzF8&ixlib=rb-4.1.0&q=80&w=1080"
     }
   ],
   "reviews": [
     {
-      "name": "Michael Stevens",
-      "text": "Best roofing experience I've had. They were professional, fast, and left my property cleaner than they found it.",
+      "name": "Sarah M.",
+      "text": "Coolsys was a lifesaver! Our AC broke down during a heatwave, and they were at our house within the hour. The technician was professional and quickly diagnosed the problem. Highly recommend!",
       "rating": 5
     },
     {
-      "name": "Sarah Jenkins",
-      "text": "Fair prices and excellent communication. They explained every step of the process. Highly recommend!",
+      "name": "John B.",
+      "text": "We use Coolsys for all our commercial refrigeration needs. They're always responsive, provide excellent service, and their prices are fair. A reliable partner for our business.",
+      "rating": 5
+    },
+    {
+      "name": "Emily K.",
+      "text": "I recently had Coolsys install a new HVAC system in my home, and I couldn't be happier. The process was smooth, the installation was clean, and the new system is so much more efficient than my old one.",
       "rating": 5
     }
   ],
-  "contact": {
-    "phone": "(555) 123-4567",
-    "email": "hello@summitroofing.com"
+  "gallery": [],
+  "unsplashCredits": {
+    "hero": {
+      "photographer": "Elimende Inagella",
+      "photographerUrl": "https://unsplash.com/@elimendeinagella",
+      "downloadUrl": "https://api.unsplash.com/photos/zx7VUt9txos/download?ixid=M3w4NjEzNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxMjIwNjl8"
+    },
+    "features": [
+      {
+        "photographer": "Cauê Fischer",
+        "photographerUrl": "https://unsplash.com/@fischer1987",
+        "downloadUrl": "https://api.unsplash.com/photos/mz4q4sfXvRY/download?ixid=M3w4NjEzNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxMjIwNzB8"
+      },
+      {
+        "photographer": "Zhuo Cheng you",
+        "photographerUrl": "https://unsplash.com/@benjamin_1017",
+        "downloadUrl": "https://api.unsplash.com/photos/OCMblSDZGA0/download?ixid=M3w4NjEzNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxMjIwNzF8"
+      },
+      {
+        "photographer": "Derek Lee",
+        "photographerUrl": "https://unsplash.com/@derekleej",
+        "downloadUrl": "https://api.unsplash.com/photos/tG84SGRgqeM/download?ixid=M3w4NjEzNDh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxMjIwNzF8"
+      }
+    ]
   }
 }
