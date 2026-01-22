@@ -5,6 +5,7 @@ export interface SiteConfig {
     headline: string;
     subhead: string;
     imageUrl?: string;
+    heroStyle?: 'split' | 'full';
   };
   features?: Array<{
     title: string;
